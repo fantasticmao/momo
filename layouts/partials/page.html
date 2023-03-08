@@ -1,0 +1,13 @@
+<main>
+  <article>
+    <h3>{{ .Title }}</h3>
+
+    <section>
+      {{ .Content }}
+    </section>
+
+    <footer>
+      <p>发表于 {{ .Date.Format "2006 年 1 月 2 日" }}</p>
+    </footer>
+  </article>
+</main>

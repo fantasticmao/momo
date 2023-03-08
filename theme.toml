@@ -1,0 +1,12 @@
+name = "Momo"
+license = "MIT"
+licenselink = "https://github.com/fantasticmao/momo/blob/main/LICENSE"
+description = ""
+homepage = "http://example.com/"
+tags = ["personal"]
+features = []
+min_version = "0.41.0"
+
+[author]
+name = "fantasticmao"
+homepage = "https://github.com/fantasticmao"
