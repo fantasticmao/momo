@@ -4,7 +4,10 @@
     <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
 
     <section>
-      {{ .Content }}
+      {{ .Summary }}
+      {{- if .Truncated }}
+      <p><a href="{{ .RelPermalink }}">阅读全文</a></p>
+      {{- end }}
     </section>
 
     <footer>

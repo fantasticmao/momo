@@ -1,6 +1,2 @@
-<head>
-  <meta charset="UTF-8">
-  <title>{{ .Site.Title }}</title>
-  {{ $styles := resources.Get "css/style.css" | minify | fingerprint }}
-  <link rel="stylesheet" href="{{ $styles.RelPermalink }}">
-</head>
+{{ partial "head/meta-tags.html" . }}
+{{ partialCached "head/theme-styles.html" . }}
