@@ -1,18 +1,7 @@
 <main>
-  {{- range .Site.RegularPages }}
   <article>
-    <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-
-    <section>
-      {{ .Summary }}
-      {{- if .Truncated }}
-      <p><a href="{{ .RelPermalink }}">阅读全文</a></p>
-      {{- end }}
-    </section>
-
-    <footer>
-      <p>发表于 {{ .Date.Format "2006 年 1 月 2 日" }}</p>
-    </footer>
+    {{- range .Site.RegularPages }}
+    <p>{{ .Date.Format "2006/01/02" }}&nbsp;<a href="{{ .RelPermalink }}">《{{ .Title }}》</a></p>
+    {{- end }}
   </article>
-  {{- end }}
 </main>

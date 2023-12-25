@@ -1,13 +1,9 @@
 <main>
   <article>
-    <h3>{{ .Title }}</h3>
+    <p class="title">《{{ .Title }}》</p>
 
-    <section>
-      {{ .Content }}
-    </section>
+    <p class="desc">{{ i18n "post_desc" . }}</p>
 
-    <footer>
-      <p>发表于 {{ .Date.Format "2006 年 1 月 2 日" }}</p>
-    </footer>
+    {{ .Content }}
   </article>
 </main>
