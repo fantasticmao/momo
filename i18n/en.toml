@@ -1,3 +1,3 @@
 [post_desc]
 one = 'Posted on {{ .Date.Format "01/02/2006" }}, 1 minute read'
-other = 'Posted on {{ .Date.Format "01/02/2006" }}, {{ .ReadingTime }} minute read'
+other = 'Posted on {{ .Date.Format "01/02/2006" }}, {{ .ReadingTime }} minutes read'
