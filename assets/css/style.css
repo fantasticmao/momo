@@ -16,7 +16,7 @@ body {
   padding: 10px;
   width: 800px;
 
-  font-family: Courier, monospace;
+  font-family: "Courier New", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
   font-size: 14px;
   letter-spacing: 1px;
   background-color: var(--white);
