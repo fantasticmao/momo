@@ -1,9 +1,47 @@
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("../fonts/JetBrainsMono-Regular.woff2") format("woff2"),
+  url("../fonts/JetBrainsMono-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("../fonts/JetBrainsMono-Italic.woff2") format("woff2"),
+  url("../fonts/JetBrainsMono-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("../fonts/JetBrainsMono-Bold.woff2") format("woff2"),
+  url("../fonts/JetBrainsMono-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("../fonts/JetBrainsMono-BoldItalic.woff2") format("woff2"),
+  url("../fonts/JetBrainsMono-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
 :root {
   --white: #fbfbfb;
   --light: #ececec;
   --black: #2f2f2f;
   --gray: #9a9a9a;
   --blue: #1565c0;
+  --wine: #aa1565;
+
+  --text: var(--black);
+  --line: var(--gray);
+  --link: var(--blue);
+  --link-visited: var(--wine);
 }
 
 body {
@@ -16,11 +54,11 @@ body {
   padding: 10px;
   width: 100%;
 
-  font-family: Courier, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  font-family: "JetBrains Mono", "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", sans-serif;
   font-size: 14px;
   letter-spacing: 1px;
   background-color: var(--white);
-  color: var(--black);
+  color: var(--text);
 }
 
 header {
@@ -32,7 +70,7 @@ header {
 hr {
   margin: 0 auto;
   width: 800px;
-  border: 1px solid var(--gray);
+  border: 1px solid var(--line);
 }
 
 main {
@@ -102,7 +140,7 @@ h6 {
 
 table, th, td {
   text-align: left;
-  border: 1px solid var(--gray);
+  border: 1px solid var(--line);
 }
 
 table {
@@ -117,12 +155,19 @@ pre {
   padding: 10px;
 }
 
-a,
-a:link,
-a:visited,
-a:hover {
-  color: var(--blue);
+a, a:link {
+  color: var(--link);
   text-decoration: none;
+}
+
+a:visited, a:focus {
+  color: var(--link-visited);
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  color: var(--link-visited);
+  text-decoration: underline;
 }
 
 p > code, li > code, th > code, td > code {
