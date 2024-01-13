@@ -1,3 +1,12 @@
+[copyright]
+other = "Copyright"
+
 [post_desc]
 one = 'Posted on {{ .Date.Format "01/02/2006" }}, 1 minute read'
 other = 'Posted on {{ .Date.Format "01/02/2006" }}, {{ .ReadingTime }} minutes read'
+
+[powered_by]
+other = "Powered by"
+
+[rss_feed]
+other = "<a href=\"{{ . }}/index.xml\" target=\"_blank\">RSS</a> Feed"

@@ -1,10 +1,10 @@
 <footer>
-  <p>订阅 <a href="/index.xml" target="_blank">RSS</a></p>
+  <p>{{ i18n "rss_feed" .Site.BaseURL | safeHTML }}</p>
   <p>·</p>
-  <p>技术支持 <a href="https://gohugo.io/" target="_blank" rel="nofollow">Hugo</a> & <a href="https://github.com/fantasticmao/momo" target="_blank" rel="nofollow">MoMo</a></p>
+  <p>{{ i18n "powered_by" . }} <a href="https://gohugo.io/" target="_blank" rel="nofollow">Hugo</a> & <a href="https://github.com/fantasticmao/momo" target="_blank" rel="nofollow">MoMo</a></p>
   {{- with .Site.Params.author }}
   <p>·</p>
-  <p>版权所有 © 2023 {{ . }}</p>
+  <p>{{ i18n "copyright" . }} © {{ time.Now.Year }} {{ . }}</p>
   {{- end }}
   {{- with .Site.Params.icp_record }}
   <p>·</p>
