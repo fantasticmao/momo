@@ -42,6 +42,14 @@
   --line: var(--gray);
   --link: var(--blue);
   --link-visited: var(--wine);
+
+  font-family: "JetBrains Mono", "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", sans-serif;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 1.6;
+
+  background-color: var(--white);
+  color: var(--text);
 }
 
 body {
@@ -49,33 +57,29 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: stretch;
-  gap: 14px;
-  margin: 0;
-  padding: 10px;
-  width: 100%;
+  gap: 1rem;
 
-  font-family: "JetBrains Mono", "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", sans-serif;
-  font-size: 14px;
-  letter-spacing: 1px;
-  background-color: var(--white);
-  color: var(--text);
+  margin: 0 auto;
+  padding: 1rem;
+  max-width: 800px;
 }
 
 header {
-  margin: 0 auto;
-  width: 800px;
-  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  font-size: calc(1rem + 4px);
 }
 
 hr {
-  margin: 0 auto;
-  width: 800px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
   border: 1px solid var(--line);
 }
 
 main {
-  margin: 0 auto;
-  width: 800px;
+  margin: 0;
+  padding: 0;
 }
 
 main > article {
@@ -83,59 +87,63 @@ main > article {
   flex-direction: column;
   justify-content: flex-start;
   align-items: stretch;
-  gap: 10px;
+  gap: 0.875rem;
+
   margin: 0;
   padding: 0;
 }
 
 main > article .title {
-  font-size: 18px;
+  font-size: calc(1rem + 4px);
 }
 
 main > article .desc {
-  font-size: 13px;
+  font-size: calc(1rem - 2px);
 }
 
 footer {
-  margin: 0 auto;
-  width: 800px;
-  padding: 0;
-
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: flex-start;
   align-items: stretch;
-  gap: 5px;
-}
+  gap: 0.5rem;
 
-h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
   padding: 0;
-  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6, p, li {
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
-  font-size: 21px;
+  font-size: calc(1rem + 12px);
 }
 
 h2 {
-  font-size: 20px;
+  font-size: calc(1rem + 10px);
 }
 
 h3 {
-  font-size: 19px;
+  font-size: calc(1rem + 8px);
 }
 
 h4 {
-  font-size: 18px;
+  font-size: calc(1rem + 6px);
 }
 
 h5 {
-  font-size: 17px;
+  font-size: calc(1rem + 4px);
 }
 
 h6 {
-  font-size: 16px;
+  font-size: calc(1rem + 2px);
+}
+
+ul, ol {
+  padding-left: 2rem;
 }
 
 table, th, td {
@@ -151,8 +159,16 @@ table {
 }
 
 pre {
+  margin: 0;
+  padding: 1rem;
   background-color: var(--light);
-  padding: 10px;
+  white-space: pre-wrap;
+}
+
+code {
+  padding: 0 2px;
+  border-radius: 2px;
+  background-color: var(--light);
 }
 
 a, a:link {
@@ -168,18 +184,4 @@ a:visited, a:focus {
 a:hover, a:active {
   color: var(--link-visited);
   text-decoration: underline;
-}
-
-p > code, li > code, th > code, td > code {
-  padding: 0 2px;
-  border-radius: 2px;
-  background-color: var(--light);
-}
-
-p > strong, li > strong, th > strong, td > strong {
-  font-weight: bold;
-}
-
-p > em, li > em, th > em, td > em {
-  font-style: italic;
 }
