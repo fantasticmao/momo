@@ -1,10 +1,10 @@
 <footer>
   <section>
     <p>{{ i18n "rss_feed" .Site.BaseURL | safeHTML }}</p>
-    <p>·</p>
+    <p>|</p>
     <p>{{ i18n "powered_by" . }} <a href="https://gohugo.io/" target="_blank" rel="nofollow">Hugo</a> & <a href="https://github.com/fantasticmao/momo" target="_blank" rel="nofollow">MoMo</a></p>
     {{- with .Site.Params.author }}
-    <p>·</p>
+    <p>|</p>
     <p>{{ i18n "copyright" . }} © {{ time.Now.Year }} {{ . }}</p>
     {{- end }}
   </section>

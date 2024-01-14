@@ -1,0 +1,10 @@
+{{- with .Site.Menus.main }}
+<nav>
+  {{- range $idx, $val := sort . }}
+  {{- if not (eq $idx 0) }}
+  <p>|</p>
+  {{- end }}
+  <p><a href="{{ $val.URL }}">{{ $val.Name }}</a></p>
+  {{- end }}
+</nav>
+{{- end }}
