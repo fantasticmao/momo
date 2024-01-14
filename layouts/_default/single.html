@@ -3,5 +3,13 @@
 {{- end -}}
 
 {{- define "main" }}
-{{ partial "page.html" . }}
+<main>
+  <article>
+    <h1>{{ .Title }}</h1>
+
+    <p id="post-desc">{{ i18n "post_desc" . }}</p>
+
+    {{ .Content }}
+  </article>
+</main>
 {{- end }}
