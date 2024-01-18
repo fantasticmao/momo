@@ -1,15 +1,12 @@
-[404]
-other = "找不到页面"
-
 [copyright]
 other = "版权所有"
 
-[post_desc]
-one = '发表于 {{ .Date.Format "2006/01/02" }}，阅读时间 1 分钟'
-other = '发表于 {{ .Date.Format "2006/01/02" }}，阅读时间 {{ .ReadingTime }} 分钟'
+[page_not_found]
+other = "找不到页面"
 
 [powered_by]
 other = "技术支持"
 
-[rss_feed]
-other = "订阅 <a href=\"{{ . }}/index.xml\" target=\"_blank\">RSS</a>"
+[reading_tips]
+one = '发表于 {{ .Date.Format "2006/01/02" }}，阅读时间 1 分钟'
+other = '发表于 {{ .Date.Format "2006/01/02" }}，阅读时间 {{ .ReadingTime }} 分钟'
