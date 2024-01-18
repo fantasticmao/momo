@@ -1,0 +1,4 @@
+{{- range .Site.Params.customCSS }}
+{{- $styles := resources.Get . | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $styles.RelPermalink }}">
+{{- end }}

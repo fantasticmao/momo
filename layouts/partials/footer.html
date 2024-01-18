@@ -1,4 +1,7 @@
 <footer>
+  {{- if eq .Kind "page" }}
+  {{- partial "single/utterances.html" . }}
+  {{- end }}
   {{- with .Site.Params.Social }}
   <section>
     {{- range $idx, $val := sort . "weight" }}
@@ -15,7 +18,7 @@
     <p>|</p>
     {{- end }}
     <p>{{ i18n "powered_by" . }} <a href="https://gohugo.io/" target="_blank" rel="nofollow">Hugo</a> & <a href="https://github.com/fantasticmao/momo" target="_blank" rel="nofollow">MoMo</a></p>
-    {{- with .Site.Params.icp_record }}
+    {{- with .Site.Params.icpRecord }}
     <p>|</p>
     <p><a href="https://beian.miit.gov.cn/" target="_blank" rel="nofollow">{{ . }}</a></p>
     {{- end }}

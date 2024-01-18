@@ -4,3 +4,6 @@
 <meta name="author" content="{{ . }}">
 {{- end }}
 <meta name="description" content="{{ .Description | default (.Summary | default .Site.Params.description) }}">
+
+{{ template "_internal/twitter_cards.html" . }}
+{{ template "_internal/opengraph.html" . }}
