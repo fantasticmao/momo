@@ -1,0 +1,10 @@
+{{/* DEFAULTS */}}
+{{ $style             := "github" }}
+{{ $showBorder        := "on" }}
+{{ $showLineNumbers   := "on" }}
+{{ $showFileMeta      := "on" }}
+{{ $showFullPath      := "on" }}
+{{ $showCopy          := "on" }}
+{{ $fetchFromJsDelivr := "on" }}
+
+<script type="application/javascript" src="https://emgithub.com/embed.js?target={{ .Get "url" }}&style={{ $style }}&showBorder={{ $showBorder }}&showLineNumbers={{ $showLineNumbers }}&showFileMeta={{ $showFileMeta }}&showFullPath={{ $showFullPath }}&showCopy={{ $showCopy }}&fetchFromJsDelivr={{ $fetchFromJsDelivr }}"></script>

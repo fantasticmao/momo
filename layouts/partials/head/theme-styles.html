@@ -1,2 +1,4 @@
-{{- $styles := resources.Get "css/style.css" | minify | fingerprint -}}
-<link rel="stylesheet" href="{{ $styles.RelPermalink }}">
+{{- $theme := resources.Get "css/theme.css" | minify | fingerprint -}}
+<link rel="stylesheet" href="{{ $theme.RelPermalink }}">
+{{- $emgithub := resources.Get "css/emgithub.css" | minify | fingerprint -}}
+<link rel="stylesheet" href="{{ $emgithub.RelPermalink }}">
