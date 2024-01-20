@@ -1,6 +1,6 @@
 <footer>
   {{- if eq .Kind "page" }}
-  {{- partial "single/utterances.html" . }}
+  {{ partial "single/utterances.html" . }}
   {{- end }}
   {{- with .Site.Params.Social }}
   <section>
