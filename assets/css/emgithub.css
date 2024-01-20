@@ -9,4 +9,9 @@
 .gist table th,
 .gist table td {
   border: 0;
+  background-color: initial;
+}
+
+.emgithub-container .hljs-ln-numbers {
+  text-align: left !important;
 }
