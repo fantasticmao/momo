@@ -1,5 +1,5 @@
 <footer>
-  {{- if eq .Kind "page" }}
+  {{- if or (eq .Kind "page") (eq .Kind "section") }}
   {{ partial "single/utterances.html" . }}
   {{- end }}
   {{- with .Site.Params.Social }}
