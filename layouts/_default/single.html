@@ -5,8 +5,8 @@
 {{- define "main" }}
 <main>
   <article>
-    <h1 class="title">{{ .Title }}</h1>
-    <p class="reading-tips">{{ i18n "reading_tips" . }}</p>
+    <h1>{{ .Title }}</h1>
+    <p><small>{{ i18n "reading_tips" . }}</small></p>
 
     {{ .Content }}
   </article>
