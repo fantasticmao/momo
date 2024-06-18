@@ -1,13 +1,13 @@
 <header>
-  <p><strong>{{ .Site.Title }}</strong></p>
+  <strong>{{ .Site.Title }}</strong>
   {{- with .Site.Menus.main }}
-  <nav>
+  <ul>
     {{- range $idx, $val := sort . }}
     {{- if not (eq $idx 0) }}
-    <p>|</p>
+    <li>|</li>
     {{- end }}
-    <p><a href="{{ $val.URL | safeURL }}">{{ $val.Name }}</a></p>
+    <li><a href="{{ $val.URL | safeURL }}">{{ $val.Name }}</a></li>
     {{- end }}
-  </nav>
+  </ul>
   {{- end }}
 </header>

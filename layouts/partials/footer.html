@@ -3,24 +3,24 @@
   {{ partial "single/utterances.html" . }}
   {{- end }}
   {{- with .Site.Params.Social }}
-  <section>
+  <ul>
     {{- range $idx, $val := sort . "weight" }}
     {{- if not (eq $idx 0) }}
-    <p>|</p>
+    <li>|</li>
     {{- end }}
-    <p><a href="{{ $val.url | safeURL }}">{{ $val.name }}</a></p>
+    <li><a href="{{ $val.url | safeURL }}">{{ $val.name }}</a></li>
     {{- end }}
-  </section>
+  </ul>
   {{- end }}
-  <section>
+  <ul>
     {{- with .Site.Params.author }}
-    <p>{{ i18n "copyright" . }} © {{ time.Now.Year }} {{ . }}</p>
-    <p>|</p>
+    <li>{{ i18n "copyright" . }} © {{ time.Now.Year }} {{ . }}</li>
+    <li>|</li>
     {{- end }}
-    <p>{{ i18n "powered_by" . }} <a href="https://gohugo.io/" target="_blank" rel="nofollow">Hugo</a> & <a href="https://github.com/fantasticmao/momo" target="_blank" rel="nofollow">MoMo</a></p>
+    <li>{{ i18n "powered_by" . }} <a href="https://gohugo.io/" target="_blank" rel="nofollow">Hugo</a> & <a href="https://github.com/fantasticmao/momo" target="_blank" rel="nofollow">MoMo</a></li>
     {{- with .Site.Params.icpRecord }}
-    <p>|</p>
-    <p><a href="https://beian.miit.gov.cn/" target="_blank" rel="nofollow">{{ . }}</a></p>
+    <li>|</li>
+    <li><a href="https://beian.miit.gov.cn/" target="_blank" rel="nofollow">{{ . }}</a></li>
     {{- end }}
-  </section>
+  </ul>
 </footer>
