@@ -2,16 +2,6 @@
   {{- if eq .Kind "page" }}
   {{ partial "single/utterances.html" . }}
   {{- end }}
-  {{- with .Site.Params.Social }}
-  <ul>
-    {{- range $idx, $val := sort . "weight" }}
-    {{- if not (eq $idx 0) }}
-    <li>|</li>
-    {{- end }}
-    <li><a href="{{ $val.url | safeURL }}">{{ $val.name }}</a></li>
-    {{- end }}
-  </ul>
-  {{- end }}
   <ul>
     {{- with .Site.Params.author }}
     <li>{{ i18n "copyright" . }} © {{ time.Now.Year }} {{ . }}</li>
@@ -24,3 +14,19 @@
     {{- end }}
   </ul>
 </footer>
+
+{{- if eq .Kind "page" }}
+<div id="scroll-to-top">
+  <a><i data-icon="up"></i></a>
+</div>
+<script>
+  let root = document.documentElement
+  let button = document.getElementById('scroll-to-top')
+  button.addEventListener('click', function () {
+    root.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    })
+  })
+</script>
+{{- end }}

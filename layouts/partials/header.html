@@ -1,13 +1,16 @@
 <header>
   <strong>{{ .Site.Title }}</strong>
+  <input type="checkbox" id="menu-toggle">
+  <label class="menu-button" for="menu-toggle">
+    <i data-icon="bars"></i>
+  </label>
   {{- with .Site.Menus.main }}
-  <ul>
-    {{- range $idx, $val := sort . }}
-    {{- if not (eq $idx 0) }}
-    <li>|</li>
-    {{- end }}
-    <li><a href="{{ $val.URL | safeURL }}">{{ $val.Name }}</a></li>
-    {{- end }}
-  </ul>
+  <nav class="menu-nav">
+    <ul>
+      {{- range $idx, $val := sort . }}
+      <li><a href="{{ $val.URL | safeURL }}">{{ $val.Name }}</a></li>
+      {{- end }}
+    </ul>
+  </nav>
   {{- end }}
 </header>
