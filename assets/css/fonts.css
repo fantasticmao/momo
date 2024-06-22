@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("../fonts/jetbrains-mono-regular.woff2") format("woff2"),
+  url("../fonts/jetbrains-mono-regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("../fonts/jetbrains-mono-italic.woff2") format("woff2"),
+  url("../fonts/jetbrains-mono-italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("../fonts/jetbrains-mono-bold.woff2") format("woff2"),
+  url("../fonts/jetbrains-mono-bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("../fonts/jetbrains-mono-bold-italic.woff2") format("woff2"),
+  url("../fonts/jetbrains-mono-bold-italic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "iconfont";
+  src: url("../fonts/iconfont.woff2") format("woff2"),
+  url("../fonts/iconfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.iconfont {
+  font-family: "iconfont";
+  font-size: 1.5rem;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.iconfont-bars:before {
+  content: "\e8a1";
+}
+
+.iconfont-up:before {
+  content: "\e600";
+}

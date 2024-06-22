@@ -2,13 +2,13 @@
   <strong>{{ .Site.Title }}</strong>
   <input type="checkbox" id="menu-toggle">
   <label class="menu-button" for="menu-toggle">
-    <i data-icon="bars"></i>
+    <span class="iconfont iconfont-bars"></span>
   </label>
   {{- with .Site.Menus.main }}
   <nav class="menu-nav">
     <ul>
       {{- range $idx, $val := sort . }}
-      <li><a href="{{ $val.URL | safeURL }}">{{ $val.Name }}</a></li>
+      <li><strong><a href="{{ $val.URL | safeURL }}">{{ $val.Name }}</a></strong></li>
       {{- end }}
     </ul>
   </nav>
