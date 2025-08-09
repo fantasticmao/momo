@@ -16,17 +16,25 @@
 </footer>
 
 {{- if eq .Kind "page" }}
-<div id="scroll-to-top">
+<div id="scroll-to-top" style="display: none">
   <span class="iconfont iconfont-up"></span>
 </div>
 <script>
   let root = document.documentElement
-  let button = document.getElementById('scroll-to-top')
-  button.addEventListener('click', function () {
+  let scrollToTop = document.getElementById('scroll-to-top')
+  scrollToTop.addEventListener('click', function () {
     root.scrollTo({
       top: 0,
       behavior: 'smooth'
     })
+  })
+
+  root.addEventListener('scroll', function () {
+    if (root.scrollTop > 100) {
+      scrollToTop.style.display = 'block'
+    } else {
+      scrollToTop.style.display = 'none'
+    }
   })
 </script>
 {{- end }}
