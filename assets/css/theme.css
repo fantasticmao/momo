@@ -6,6 +6,7 @@
   --gray: #cccccc;
   --blue: #1565c0;
   --wine: #c01565;
+  --body-width: 800px;
 
   --text: var(--black);
   --line: var(--gray);
@@ -30,7 +31,7 @@ body {
 
   margin: 0 auto;
   padding: 1rem;
-  max-width: 800px;
+  max-width: var(--body-width);
 }
 
 header {
@@ -194,9 +195,10 @@ img {
 #scroll-to-top {
   position: fixed;
   bottom: 1.5rem;
-  right: 1.5rem;
+  right: calc((100vw - var(--body-width) - 2rem) / 2 + 1.5rem);
   z-index: 100;
   opacity: 0.5;
+  cursor: pointer;
 }
 
 #menu-toggle {
@@ -220,6 +222,12 @@ img {
 
 .menu-nav ul > li {
   display: inline;
+}
+
+@media only screen and (max-width: calc(var(--body-width) + 2rem)) {
+  #scroll-to-top {
+    right: 1.5rem;
+  }
 }
 
 @media only screen and (max-width: 640px) {
