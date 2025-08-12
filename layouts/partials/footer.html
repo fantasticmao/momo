@@ -16,7 +16,7 @@
 </footer>
 
 {{- if eq .Kind "page" }}
-<div id="scroll-to-top" style="display: none">
+<div id="scroll-to-top" style="visibility: hidden; opacity: 0">
   <span class="iconfont iconfont-up"></span>
 </div>
 <script>
@@ -31,9 +31,11 @@
 
   document.addEventListener('scroll', function () {
     if (root.scrollTop > 100) {
-      scrollToTop.style.display = 'block'
+      scrollToTop.style.visibility = 'visible'
+      scrollToTop.style.opacity = '0.5'
     } else {
-      scrollToTop.style.display = 'none'
+      scrollToTop.style.visibility = 'hidden'
+      scrollToTop.style.opacity = '0'
     }
   })
 </script>

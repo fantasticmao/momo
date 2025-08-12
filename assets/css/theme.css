@@ -196,7 +196,9 @@ img {
   bottom: 1.5rem;
   right: calc((100vw - 800px - 2rem) / 2 + 1.5rem);
   z-index: 100;
+  visibility: visible;
   opacity: 0.5;
+  transition: visibility 0.3s, opacity 0.3s linear;
   cursor: pointer;
 }
 

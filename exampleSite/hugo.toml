@@ -1,0 +1,24 @@
+title = "MoMo"
+theme = 'momo'
+enableEmoji = true
+
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
+
+[params]
+author = "fantasticmao"
+
+[menus]
+[[menus.main]]
+name = "Home"
+weight = 1
+url = "/homepage"
+[[menus.main]]
+name = "Post"
+weight = 2
+url = "/post"
+[[menus.main]]
+name = "Abtout"
+weight = 3
+url = "/about"
