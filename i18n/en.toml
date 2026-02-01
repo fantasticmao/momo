@@ -8,5 +8,5 @@ other = "Page Not Found"
 other = "Powered by"
 
 [reading_tips]
-one = 'Posted on {{ .Date.Format "01/02/2006" }}, 1 minute read'
-other = 'Posted on {{ .Date.Format "01/02/2006" }}, {{ .ReadingTime }} minutes read'
+one = 'Posted on {{ .Date.Format "2006-01-02" }}, 1 minute read'
+other = 'Posted on {{ .Date.Format "2006-01-02" }}, {{ .ReadingTime }} minutes read'
