@@ -4,16 +4,16 @@
 
 {{- define "main" }}
 <main>
-  <article>
-    {{- with .Title }}
-    <h1 class="title">{{ . }}</h1>
-    {{- end }}
+    <article>
+        {{- with .Title }}
+        <h1 class="title">{{ . }}</h1>
+        {{- end }}
 
-    {{ .Content }}
+        {{ .Content }}
 
-    {{- range .Pages }}
-    <p><span>{{ .Date.Format "2006-01-02" }}</span><a href="{{ .RelPermalink }}">《{{ .Title }}》</a></p>
-    {{- end }}
-  </article>
+        {{- range .Pages }}
+        <p><span>{{ .Date.Format "2006-01-02" }}</span><a href="{{ .RelPermalink }}">《{{ .Title }}》</a></p>
+        {{- end }}
+    </article>
 </main>
 {{- end }}

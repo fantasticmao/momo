@@ -1,41 +1,41 @@
 <footer>
-  {{- if eq .Kind "page" }}
-  {{ partial "single/utterances.html" . }}
-  {{- end }}
-  <ul>
-    {{- with .Site.Params.author }}
-    <li>{{ i18n "copyright" . }} &copy; {{ time.Now.Year }} {{ . }}</li>
-    <li>|</li>
+    {{- if eq .Kind "page" }}
+    {{ partial "single/utterances.html" . }}
     {{- end }}
-    <li>{{ i18n "powered_by" . }} <a href="https://gohugo.io/" target="_blank" rel="nofollow">Hugo</a> & <a href="https://github.com/fantasticmao/momo" target="_blank" rel="nofollow">MoMo</a></li>
-  </ul>
-  {{- with .Site.Params.icpRecord }}
-  <p><a href="https://beian.miit.gov.cn/" target="_blank" rel="nofollow">{{ . }}</a></p>
-  {{- end }}
+    <ul>
+        {{- with .Site.Params.author }}
+        <li>{{ i18n "copyright" . }} &copy; {{ time.Now.Year }} {{ . }}</li>
+        <li>|</li>
+        {{- end }}
+        <li>{{ i18n "powered_by" . }} <a href="https://gohugo.io/" target="_blank" rel="nofollow">Hugo</a> & <a href="https://github.com/fantasticmao/momo" target="_blank" rel="nofollow">MoMo</a></li>
+    </ul>
+    {{- with .Site.Params.icpRecord }}
+    <p><a href="https://beian.miit.gov.cn/" target="_blank" rel="nofollow">{{ . }}</a></p>
+    {{- end }}
 </footer>
 
 {{- if eq .Kind "page" }}
 <div id="scroll-to-top" style="visibility: hidden; opacity: 0">
-  <span class="iconfont iconfont-up"></span>
+    <span class="iconfont iconfont-up"></span>
 </div>
 <script>
-  let root = document.documentElement
-  let scrollToTop = document.getElementById('scroll-to-top')
-  scrollToTop.addEventListener('click', function () {
-    root.scrollTo({
-      top: 0,
-      behavior: 'smooth'
+    let root = document.documentElement
+    let scrollToTop = document.getElementById('scroll-to-top')
+    scrollToTop.addEventListener('click', function () {
+        root.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        })
     })
-  })
 
-  document.addEventListener('scroll', function () {
-    if (root.scrollTop > 100) {
-      scrollToTop.style.visibility = 'visible'
-      scrollToTop.style.opacity = '0.5'
-    } else {
-      scrollToTop.style.visibility = 'hidden'
-      scrollToTop.style.opacity = '0'
-    }
-  })
+    document.addEventListener('scroll', function () {
+        if (root.scrollTop > 100) {
+            scrollToTop.style.visibility = 'visible'
+            scrollToTop.style.opacity = '0.5'
+        } else {
+            scrollToTop.style.visibility = 'hidden'
+            scrollToTop.style.opacity = '0'
+        }
+    })
 </script>
 {{- end }}

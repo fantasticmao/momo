@@ -1,16 +1,16 @@
 <header>
-  <strong>{{ .Site.Title }}</strong>
-  <input id="menu-toggle" type="checkbox">
-  <label class="menu-button" for="menu-toggle">
-    <span class="iconfont iconfont-bars"></span>
-  </label>
-  {{- with .Site.Menus.main }}
-  <nav class="menu-nav">
-    <ul>
-      {{- range $idx, $val := sort . }}
-      <li><strong><a href="{{ $val.URL | safeURL }}">{{ $val.Name }}</a></strong></li>
-      {{- end }}
-    </ul>
-  </nav>
-  {{- end }}
+    <strong>{{ .Site.Title }}</strong>
+    <input id="menu-toggle" type="checkbox">
+    <label class="menu-button" for="menu-toggle">
+        <span class="iconfont iconfont-bars"></span>
+    </label>
+    {{- with .Site.Menus.main }}
+    <nav class="menu-nav">
+        <ul>
+            {{- range $idx, $val := sort . }}
+            <li><strong><a href="{{ $val.URL | safeURL }}">{{ $val.Name }}</a></strong></li>
+            {{- end }}
+        </ul>
+    </nav>
+    {{- end }}
 </header>

@@ -4,8 +4,7 @@
 {{ $tab     := "result" }}{{/* html|css|js|result */}}
 {{ $theme   := 8862 }}{{/* create on codepen.io */}}
 
-<script defer
-  data-slug-hash="{{ .Get "id" }}"
+<script defer data-slug-hash="{{ .Get " id" }}"
 data-user="{{ or (.Get "user") $user }}"
 data-height="{{ or (.Get "height") $height }}"
 data-default-tab="{{ or (.Get "tab") $tab }}"
