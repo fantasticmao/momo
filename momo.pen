@@ -1,0 +1,3667 @@
+{
+  "version": "2.22",
+  "children": [
+    {
+      "type": "frame",
+      "id": "canvas",
+      "x": 0,
+      "y": 0,
+      "name": "画布",
+      "width": 3376,
+      "height": 1977,
+      "fill": "#FFFFFF",
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "missingPage",
+          "x": 1547,
+          "y": 955,
+          "name": "找不到页面页",
+          "width": 832,
+          "fill": "#FBFBFB",
+          "stroke": "$color.line",
+          "strokeWidth": 1,
+          "layout": "vertical",
+          "gap": 37.5,
+          "padding": 16,
+          "children": [
+            {
+              "type": "frame",
+              "id": "missingHeader",
+              "name": "页眉",
+              "width": 800,
+              "gap": 7.5,
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "missingBrand",
+                  "fill": "$color.ink",
+                  "content": "FantasticMao",
+                  "lineHeight": 1.8,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 17,
+                  "fontWeight": "bold",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "missingNav",
+                  "name": "导航",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "missingNavHome",
+                      "name": "导航项",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "yx7hZ",
+                          "fill": "$color.ink",
+                          "content": "首页",
+                          "lineHeight": 1.8,
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 17,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "missingNavTech",
+                      "name": "导航项",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "nuUEH",
+                          "fill": "$color.ink",
+                          "content": "编程技术",
+                          "lineHeight": 1.8,
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 17,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "missingNavLife",
+                      "name": "导航项",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "oRvsv",
+                          "fill": "$color.ink",
+                          "content": "生活随笔",
+                          "lineHeight": 1.8,
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 17,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "missingNavAbout",
+                      "name": "导航项",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "fgo3M",
+                          "fill": "$color.ink",
+                          "content": "关于我",
+                          "lineHeight": 1.8,
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 17,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "missingBody",
+              "name": "正文",
+              "width": 800,
+              "height": 600,
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "missingMessage",
+                  "fill": "$color.ink",
+                  "content": "找不到页面",
+                  "lineHeight": 1.8,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 15,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "missingFooter",
+              "name": "页脚",
+              "width": 800,
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "JVdjs",
+                  "fill": "$color.ink",
+                  "content": "版权所有 © 2026 fantasticmao",
+                  "lineHeight": 1.8,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 15,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "Wqfh9",
+                  "fill": "$color.ink",
+                  "content": "|",
+                  "lineHeight": 1.8,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 15,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "Yn5LX",
+                  "fill": "$color.ink",
+                  "content": "技术支持 Hugo & MoMo",
+                  "lineHeight": 1.8,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 15,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "T1qQJ",
+                  "fill": "$color.ink",
+                  "content": "|",
+                  "lineHeight": 1.8,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 15,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "D8PijF",
+                  "fill": "$color.ink",
+                  "content": "浙ICP备17009730号",
+                  "lineHeight": 1.8,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 15,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "missingCaption",
+          "x": 1547,
+          "y": 928,
+          "fill": "$color.ink",
+          "textGrowth": "fixed-width",
+          "width": 800,
+          "content": "找不到页面。只保留这一句。正文至少 600 高。",
+          "lineHeight": 1.8,
+          "fontFamily": "JetBrains Mono",
+          "fontSize": 15,
+          "fontWeight": "normal",
+          "letterSpacing": 1
+        },
+        {
+          "type": "frame",
+          "id": "listPage",
+          "x": 1547,
+          "y": 121,
+          "name": "列表页",
+          "width": 832,
+          "fill": "#FBFBFB",
+          "stroke": "$color.line",
+          "strokeWidth": 1,
+          "layout": "vertical",
+          "gap": 37.5,
+          "padding": 16,
+          "children": [
+            {
+              "type": "frame",
+              "id": "listHeader",
+              "name": "页眉",
+              "width": 800,
+              "gap": 7.5,
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "listBrand",
+                  "fill": "$color.ink",
+                  "content": "FantasticMao",
+                  "lineHeight": 1.8,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 17,
+                  "fontWeight": "bold",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "listNav",
+                  "name": "导航",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "listNavHome",
+                      "name": "导航项",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "nVsuE",
+                          "fill": "$color.ink",
+                          "content": "首页",
+                          "lineHeight": 1.8,
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 17,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "listNavTech",
+                      "name": "导航项",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "x4ly8",
+                          "fill": "$color.ink",
+                          "content": "编程技术",
+                          "lineHeight": 1.8,
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 17,
+                          "fontWeight": "bold",
+                          "letterSpacing": 1
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "listNavLife",
+                      "name": "导航项",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "aJG6w",
+                          "fill": "$color.ink",
+                          "content": "生活随笔",
+                          "lineHeight": 1.8,
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 17,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "listNavAbout",
+                      "name": "导航项",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "WtDQ9",
+                          "fill": "$color.ink",
+                          "content": "关于我",
+                          "lineHeight": 1.8,
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 17,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "listBody",
+              "name": "正文",
+              "width": 800,
+              "height": 600,
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "listH1",
+                  "fill": "$color.ink",
+                  "content": "编程技术",
+                  "lineHeight": 1.8,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 30,
+                  "fontWeight": "bold",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "listIntroWrap",
+                  "width": 800,
+                  "layout": "vertical",
+                  "padding": [
+                    11,
+                    0,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "listIntro",
+                      "fill": "$color.ink",
+                      "textGrowth": "fixed-width",
+                      "width": 800,
+                      "content": "编程生涯的知识沉淀，所见所闻、所思所想。",
+                      "lineHeight": 1.8,
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 15,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "posts",
+                  "width": 800,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": [
+                    22,
+                    0,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "post1",
+                      "name": "文章行",
+                      "width": 768,
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "NvOii",
+                          "fill": "$color.quiet",
+                          "content": "2025-08-05",
+                          "lineHeight": 1.8,
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 15,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "XdaDl",
+                          "fill": "$color.link",
+                          "content": "《如何去做系统的稳定性工作》",
+                          "lineHeight": 1.8,
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 15,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "post2",
+                      "name": "文章行",
+                      "width": 768,
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "IvDli",
+                          "fill": "$color.quiet",
+                          "content": "2023-10-30",
+                          "lineHeight": 1.8,
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 15,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "K7jnN",
+                          "fill": "$color.link",
+                          "content": "《Kafka 多 Topic 订阅场景下的消费热点问题》",
+                          "lineHeight": 1.8,
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 15,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "post3",
+                      "name": "文章行",
+                      "width": 768,
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "xn2gp",
+                          "fill": "$color.quiet",
+                          "content": "2021-04-20",
+                          "lineHeight": 1.8,
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 15,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "Hz1ug",
+                          "fill": "$color.link",
+                          "content": "《和女朋友分享计算机知识的日常 —— 生活中的进位制》",
+                          "lineHeight": 1.8,
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 15,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "post4",
+                      "name": "文章行",
+                      "width": 768,
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "l6HfjG",
+                          "fill": "$color.quiet",
+                          "content": "2020-10-01",
+                          "lineHeight": 1.8,
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 15,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "hqAf1",
+                          "fill": "$color.link",
+                          "content": "《Java ThreadPoolExecutor 源码分析》",
+                          "lineHeight": 1.8,
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 15,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "listFooter",
+              "name": "页脚",
+              "width": 800,
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "yJVOc",
+                  "fill": "$color.ink",
+                  "content": "版权所有 © 2026 fantasticmao",
+                  "lineHeight": 1.8,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 15,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "CRHxs",
+                  "fill": "$color.ink",
+                  "content": "|",
+                  "lineHeight": 1.8,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 15,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "c3ICo",
+                  "fill": "$color.ink",
+                  "content": "技术支持 Hugo & MoMo",
+                  "lineHeight": 1.8,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 15,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "DClc8",
+                  "fill": "$color.ink",
+                  "content": "|",
+                  "lineHeight": 1.8,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 15,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "S99Bo5",
+                  "fill": "$color.ink",
+                  "content": "浙ICP备17009730号",
+                  "lineHeight": 1.8,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 15,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "listCaption",
+          "x": 1547,
+          "y": 94,
+          "fill": "$color.ink",
+          "textGrowth": "fixed-width",
+          "width": 800,
+          "content": "列表。日期和标题同一行，日期用次级色。正文至少 600 高。",
+          "lineHeight": 1.8,
+          "fontFamily": "JetBrains Mono",
+          "fontSize": 15,
+          "fontWeight": "normal",
+          "letterSpacing": 1
+        },
+        {
+          "type": "frame",
+          "id": "narrowPage",
+          "x": 2895,
+          "y": 121,
+          "name": "窄屏页",
+          "width": 390,
+          "fill": "#FBFBFB",
+          "stroke": "$color.line",
+          "strokeWidth": 1,
+          "layout": "vertical",
+          "gap": 37.5,
+          "padding": 16,
+          "children": [
+            {
+              "type": "frame",
+              "id": "narrowBar",
+              "name": "顶栏",
+              "width": 358,
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "narrowBrand",
+                  "fill": "$color.ink",
+                  "content": "FantasticMao",
+                  "lineHeight": 1.8,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 17,
+                  "fontWeight": "bold",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "icon",
+                  "id": "narrowMenu",
+                  "width": 24,
+                  "height": 24,
+                  "icon": "menu",
+                  "library": "lucide",
+                  "fill": "#CCCCCC"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "narrowBody",
+              "name": "正文",
+              "width": 358,
+              "height": 600,
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "narrowPost1",
+                  "name": "文章行",
+                  "width": 358,
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "gdQZ0",
+                      "fill": "$color.quiet",
+                      "content": "2025-08-05",
+                      "lineHeight": 1.8,
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 15,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "pt6fd",
+                      "fill": "$color.link",
+                      "textGrowth": "fixed-width",
+                      "width": 250,
+                      "content": "《如何去做系统的稳定性工作》",
+                      "lineHeight": 1.8,
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 15,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "narrowPost2",
+                  "name": "文章行",
+                  "width": 358,
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "MOa9i",
+                      "fill": "$color.quiet",
+                      "content": "2023-10-30",
+                      "lineHeight": 1.8,
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 15,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "f4occh",
+                      "fill": "$color.link",
+                      "textGrowth": "fixed-width",
+                      "width": 250,
+                      "content": "《Kafka 多 Topic 订阅场景下的消费热点问题》",
+                      "lineHeight": 1.8,
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 15,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "narrowPost3",
+                  "name": "文章行",
+                  "width": 358,
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "N4Oh6e",
+                      "fill": "$color.quiet",
+                      "content": "2021-04-20",
+                      "lineHeight": 1.8,
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 15,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "D9PwXQ",
+                      "fill": "$color.link",
+                      "textGrowth": "fixed-width",
+                      "width": 250,
+                      "content": "《和女朋友分享计算机知识的日常 —— 生活中的进位制》",
+                      "lineHeight": 1.8,
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 15,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "narrowPost4",
+                  "name": "文章行",
+                  "width": 358,
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "X5eywS",
+                      "fill": "$color.quiet",
+                      "content": "2020-10-01",
+                      "lineHeight": 1.8,
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 15,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "Gslf2",
+                      "fill": "$color.link",
+                      "textGrowth": "fixed-width",
+                      "width": 250,
+                      "content": "《Java ThreadPoolExecutor 源码分析》",
+                      "lineHeight": 1.8,
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 15,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "narrowNav",
+              "layoutPosition": "absolute",
+              "x": 254,
+              "y": 52,
+              "name": "菜单",
+              "width": 120,
+              "fill": "#FBFBFB",
+              "stroke": "$color.line",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "padding": 16,
+              "alignItems": "end",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "narrowNavHome",
+                  "name": "导航项",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "p8SreR",
+                      "fill": "$color.ink",
+                      "content": "首页",
+                      "lineHeight": 1.8,
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 17,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "narrowNavTech",
+                  "name": "导航项",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "S89hfk",
+                      "fill": "$color.ink",
+                      "content": "编程技术",
+                      "lineHeight": 1.8,
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 17,
+                      "fontWeight": "bold",
+                      "letterSpacing": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "narrowNavLife",
+                  "name": "导航项",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "yssOR",
+                      "fill": "$color.ink",
+                      "content": "生活随笔",
+                      "lineHeight": 1.8,
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 17,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "narrowNavAbout",
+                  "name": "导航项",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "pVEQX",
+                      "fill": "$color.ink",
+                      "content": "关于我",
+                      "lineHeight": 1.8,
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 17,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "narrowFooter",
+              "name": "页脚",
+              "fill": "$color.ink",
+              "textGrowth": "fixed-width",
+              "width": 358,
+              "content": "版权所有 © 2026 fantasticmao |\n技术支持 Hugo & MoMo |\n浙ICP备17009730号",
+              "lineHeight": 1.8,
+              "fontFamily": "JetBrains Mono",
+              "fontSize": 15,
+              "fontWeight": "normal",
+              "letterSpacing": 1
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "narrowCaption",
+          "x": 2895,
+          "y": 40,
+          "fill": "$color.ink",
+          "textGrowth": "fixed-width",
+          "width": 390,
+          "content": "窄屏。菜单从按钮下拉，不占高度。日期和标题同一行，标题在栏内换行。正文至少 600 高。页脚和宽屏一样，在栏内换行。",
+          "lineHeight": 1.8,
+          "fontFamily": "JetBrains Mono",
+          "fontSize": 15,
+          "fontWeight": "normal",
+          "letterSpacing": 1
+        },
+        {
+          "type": "frame",
+          "id": "narrowArticlePage",
+          "x": 2436,
+          "y": 121,
+          "name": "窄屏正文页",
+          "width": 390,
+          "fill": "#FBFBFB",
+          "stroke": "$color.line",
+          "strokeWidth": 1,
+          "layout": "vertical",
+          "gap": 37.5,
+          "padding": 16,
+          "children": [
+            {
+              "type": "frame",
+              "id": "naBar",
+              "name": "顶栏",
+              "width": 358,
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "naBrand",
+                  "fill": "$color.ink",
+                  "content": "FantasticMao",
+                  "lineHeight": 1.8,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 17,
+                  "fontWeight": "bold",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "icon",
+                  "id": "naMenu",
+                  "width": 24,
+                  "height": 24,
+                  "icon": "menu",
+                  "library": "lucide",
+                  "fill": "#CCCCCC"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "naBody",
+              "name": "正文",
+              "width": 358,
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "naH1",
+                  "fill": "$color.ink",
+                  "textGrowth": "fixed-width",
+                  "width": 358,
+                  "content": "Java ThreadPoolExecutor 源码分析",
+                  "lineHeight": 1.8,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 30,
+                  "fontWeight": "bold",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "naMetaWrap",
+                  "width": 358,
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "naMeta",
+                      "fill": "$color.quiet",
+                      "textGrowth": "fixed-width",
+                      "width": 358,
+                      "content": "发表于 2020-10-01，预计阅读时间 3 分钟",
+                      "lineHeight": 1.8,
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 13,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "naPreface",
+                  "name": "前言",
+                  "width": 358,
+                  "layout": "vertical",
+                  "gap": 10.5,
+                  "padding": [
+                    22,
+                    0,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "naPrefaceH",
+                      "fill": "$color.ink",
+                      "textGrowth": "fixed-width",
+                      "width": 358,
+                      "content": "前言",
+                      "lineHeight": 1.8,
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 26.25,
+                      "fontWeight": "bold",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "naPrefaceP",
+                      "name": "段落",
+                      "width": 358,
+                      "layout": "vertical",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "naPrefacePL0",
+                          "width": 358,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "naPrefacePL0S0",
+                              "fill": "$color.ink",
+                              "textGrowth": "fixed-width",
+                              "width": 358,
+                              "content": "从工作机制来看 ThreadPoolExecutor，包括",
+                              "lineHeight": 1.8,
+                              "fontFamily": "JetBrains Mono",
+                              "fontSize": 15,
+                              "fontWeight": "normal",
+                              "letterSpacing": 1
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "naPrefacePL1",
+                          "width": 358,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "naPrefacePL1S0",
+                              "fill": "$color.ink",
+                              "textGrowth": "fixed-width",
+                              "width": 10,
+                              "content": " ",
+                              "lineHeight": 1.8,
+                              "fontFamily": "JetBrains Mono",
+                              "fontSize": 15,
+                              "fontWeight": "normal",
+                              "letterSpacing": 1
+                            },
+                            {
+                              "type": "text",
+                              "id": "naPrefacePL1S1",
+                              "fill": "$color.link",
+                              "textGrowth": "fixed-width",
+                              "width": 64,
+                              "content": "状态管理",
+                              "lineHeight": 1.8,
+                              "fontFamily": "JetBrains Mono",
+                              "fontSize": 15,
+                              "fontWeight": "normal",
+                              "letterSpacing": 1
+                            },
+                            {
+                              "type": "text",
+                              "id": "naPrefacePL1S2",
+                              "fill": "$color.ink",
+                              "textGrowth": "fixed-width",
+                              "width": 16,
+                              "content": "、",
+                              "lineHeight": 1.8,
+                              "fontFamily": "JetBrains Mono",
+                              "fontSize": 15,
+                              "fontWeight": "normal",
+                              "letterSpacing": 1
+                            },
+                            {
+                              "type": "text",
+                              "id": "naPrefacePL1S3",
+                              "fill": "$color.link",
+                              "textGrowth": "fixed-width",
+                              "width": 64,
+                              "content": "提交任务",
+                              "lineHeight": 1.8,
+                              "fontFamily": "JetBrains Mono",
+                              "fontSize": 15,
+                              "fontWeight": "normal",
+                              "letterSpacing": 1
+                            },
+                            {
+                              "type": "text",
+                              "id": "naPrefacePL1S4",
+                              "fill": "$color.ink",
+                              "textGrowth": "fixed-width",
+                              "width": 36,
+                              "content": " 和 ",
+                              "lineHeight": 1.8,
+                              "fontFamily": "JetBrains Mono",
+                              "fontSize": 15,
+                              "fontWeight": "normal",
+                              "letterSpacing": 1
+                            },
+                            {
+                              "type": "text",
+                              "id": "naPrefacePL1S5",
+                              "fill": "$color.link",
+                              "textGrowth": "fixed-width",
+                              "width": 64,
+                              "content": "执行任务",
+                              "lineHeight": 1.8,
+                              "fontFamily": "JetBrains Mono",
+                              "fontSize": 15,
+                              "fontWeight": "normal",
+                              "letterSpacing": 1
+                            },
+                            {
+                              "type": "text",
+                              "id": "naPrefacePL1S6",
+                              "fill": "$color.ink",
+                              "textGrowth": "fixed-width",
+                              "width": 16,
+                              "content": "。",
+                              "lineHeight": 1.8,
+                              "fontFamily": "JetBrains Mono",
+                              "fontSize": 15,
+                              "fontWeight": "normal",
+                              "letterSpacing": 1
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "naWorkflow",
+                      "name": "图片占位",
+                      "width": 358,
+                      "height": 180,
+                      "stroke": "$color.line",
+                      "strokeWidth": 1,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "naWorkflowLabel",
+                          "fill": "$color.quiet",
+                          "content": "图片",
+                          "lineHeight": 1.8,
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 15,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "naState",
+                  "name": "状态管理",
+                  "width": 358,
+                  "layout": "vertical",
+                  "gap": 10.5,
+                  "padding": [
+                    30,
+                    0,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "naStateH",
+                      "fill": "$color.ink",
+                      "textGrowth": "fixed-width",
+                      "width": 358,
+                      "content": "状态管理",
+                      "lineHeight": 1.8,
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 26.25,
+                      "fontWeight": "bold",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "naStateP",
+                      "name": "段落",
+                      "width": 358,
+                      "layout": "vertical",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "naStatePL0",
+                          "width": 358,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "naStatePL0S0",
+                              "fill": "$color.ink",
+                              "textGrowth": "fixed-width",
+                              "width": 154,
+                              "content": "两个状态合在同一个 ",
+                              "lineHeight": 1.8,
+                              "fontFamily": "JetBrains Mono",
+                              "fontSize": 15,
+                              "fontWeight": "normal",
+                              "letterSpacing": 1
+                            },
+                            {
+                              "type": "frame",
+                              "id": "naStatePL0S1",
+                              "name": "code",
+                              "fill": "$color.code",
+                              "cornerRadius": 4,
+                              "padding": [
+                                0,
+                                2
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "naStatePL0S1T",
+                                  "fill": "$color.ink",
+                                  "textGrowth": "fixed-width",
+                                  "width": 30,
+                                  "content": "ctl",
+                                  "lineHeight": 1.8,
+                                  "fontFamily": "JetBrains Mono",
+                                  "fontSize": 15,
+                                  "fontWeight": "normal",
+                                  "letterSpacing": 1
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "naStatePL0S2",
+                              "fill": "$color.ink",
+                              "textGrowth": "fixed-width",
+                              "width": 132,
+                              "content": " 字段里，类型是 ",
+                              "lineHeight": 1.8,
+                              "fontFamily": "JetBrains Mono",
+                              "fontSize": 15,
+                              "fontWeight": "normal",
+                              "letterSpacing": 1
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "naStatePL1",
+                          "width": 358,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "naStatePL1S0",
+                              "name": "code",
+                              "fill": "$color.code",
+                              "cornerRadius": 4,
+                              "padding": [
+                                0,
+                                2
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "naStatePL1S0T",
+                                  "fill": "$color.ink",
+                                  "textGrowth": "fixed-width",
+                                  "width": 130,
+                                  "content": "AtomicInteger",
+                                  "lineHeight": 1.8,
+                                  "fontFamily": "JetBrains Mono",
+                                  "fontSize": 15,
+                                  "fontWeight": "normal",
+                                  "letterSpacing": 1
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "naStatePL1S1",
+                              "fill": "$color.ink",
+                              "textGrowth": "fixed-width",
+                              "width": 16,
+                              "content": "。",
+                              "lineHeight": 1.8,
+                              "fontFamily": "JetBrains Mono",
+                              "fontSize": 15,
+                              "fontWeight": "normal",
+                              "letterSpacing": 1
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "naStateCode",
+                      "name": "代码",
+                      "width": 358,
+                      "fill": "$color.code",
+                      "cornerRadius": 4,
+                      "stroke": "$color.line",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "padding": 16,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "naStateCodeText",
+                          "fill": "$color.ink",
+                          "textGrowth": "fixed-width",
+                          "width": 326,
+                          "content": "[000][0 0000 0000 0000 0000 0000 0000 0000]\n  |                    |\n  v                    v\nrunState          workerCount",
+                          "lineHeight": 1.8,
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 12,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "naCtlEmbed",
+                      "name": "emgithub 源码嵌入",
+                      "width": 358,
+                      "cornerRadius": 4,
+                      "stroke": "$color.line",
+                      "strokeWidth": 1,
+                      "padding": 12,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "naCtlEmbedLabel",
+                          "fill": "$color.ink",
+                          "content": "emgithub 源码嵌入",
+                          "lineHeight": 1.8,
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 12,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "naWorker",
+                      "name": "workerCount",
+                      "width": 358,
+                      "layout": "vertical",
+                      "gap": 10.5,
+                      "padding": [
+                        12,
+                        0,
+                        0,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "naWorkerH",
+                          "fill": "$color.ink",
+                          "textGrowth": "fixed-width",
+                          "width": 358,
+                          "content": "workerCount",
+                          "lineHeight": 1.8,
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 22.5,
+                          "fontWeight": "bold",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "frame",
+                          "id": "naWorkerP",
+                          "name": "段落",
+                          "width": 358,
+                          "layout": "vertical",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "naWorkerPL0",
+                              "width": 358,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "naWorkerPL0S0",
+                                  "fill": "$color.ink",
+                                  "textGrowth": "fixed-width",
+                                  "width": 126,
+                                  "content": "初始值是 0，占 ",
+                                  "lineHeight": 1.8,
+                                  "fontFamily": "JetBrains Mono",
+                                  "fontSize": 15,
+                                  "fontWeight": "normal",
+                                  "letterSpacing": 1
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "naWorkerPL0S1",
+                                  "name": "code",
+                                  "fill": "$color.code",
+                                  "cornerRadius": 4,
+                                  "padding": [
+                                    0,
+                                    2
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "naWorkerPL0S1T",
+                                      "fill": "$color.ink",
+                                      "textGrowth": "fixed-width",
+                                      "width": 30,
+                                      "content": "ctl",
+                                      "lineHeight": 1.8,
+                                      "fontFamily": "JetBrains Mono",
+                                      "fontSize": 15,
+                                      "fontWeight": "normal",
+                                      "letterSpacing": 1
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "naWorkerPL0S2",
+                                  "fill": "$color.ink",
+                                  "textGrowth": "fixed-width",
+                                  "width": 74,
+                                  "content": " 的低位。",
+                                  "lineHeight": 1.8,
+                                  "fontFamily": "JetBrains Mono",
+                                  "fontSize": 15,
+                                  "fontWeight": "normal",
+                                  "letterSpacing": 1
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "naTable",
+                          "name": "表格",
+                          "width": 358,
+                          "layout": "vertical",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "naHead",
+                              "name": "表格行",
+                              "width": 358,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "naHeadA",
+                                  "clip": true,
+                                  "width": 120,
+                                  "height": 43,
+                                  "stroke": "$color.line",
+                                  "strokeWidth": 1,
+                                  "layout": "vertical",
+                                  "padding": 8,
+                                  "justifyContent": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "naHeadAT",
+                                      "fill": "$color.ink",
+                                      "textGrowth": "fixed-width",
+                                      "width": 104,
+                                      "content": "枚举值",
+                                      "lineHeight": 1.8,
+                                      "fontFamily": "JetBrains Mono",
+                                      "fontSize": 15,
+                                      "fontWeight": "bold",
+                                      "letterSpacing": 1
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "naHeadB",
+                                  "clip": true,
+                                  "width": 56,
+                                  "height": 43,
+                                  "stroke": "$color.line",
+                                  "strokeWidth": 1,
+                                  "layout": "vertical",
+                                  "padding": 8,
+                                  "justifyContent": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "naHeadBT",
+                                      "fill": "$color.ink",
+                                      "textGrowth": "fixed-width",
+                                      "width": 40,
+                                      "content": "数值",
+                                      "lineHeight": 1.8,
+                                      "fontFamily": "JetBrains Mono",
+                                      "fontSize": 15,
+                                      "fontWeight": "bold",
+                                      "letterSpacing": 1
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "naHeadC",
+                                  "clip": true,
+                                  "width": 182,
+                                  "height": 43,
+                                  "stroke": "$color.line",
+                                  "strokeWidth": 1,
+                                  "layout": "vertical",
+                                  "padding": 8,
+                                  "justifyContent": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "naHeadCT",
+                                      "fill": "$color.ink",
+                                      "textGrowth": "fixed-width",
+                                      "width": 166,
+                                      "content": "描述",
+                                      "lineHeight": 1.8,
+                                      "fontFamily": "JetBrains Mono",
+                                      "fontSize": 15,
+                                      "fontWeight": "normal",
+                                      "letterSpacing": 1
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "naRun",
+                              "name": "表格行",
+                              "width": 358,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "naRunA",
+                                  "clip": true,
+                                  "width": 120,
+                                  "height": 70,
+                                  "stroke": "$color.line",
+                                  "strokeWidth": 1,
+                                  "layout": "vertical",
+                                  "padding": 8,
+                                  "justifyContent": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "naRunAT",
+                                      "fill": "$color.ink",
+                                      "textGrowth": "fixed-width",
+                                      "width": 104,
+                                      "content": "RUNNING",
+                                      "lineHeight": 1.8,
+                                      "fontFamily": "JetBrains Mono",
+                                      "fontSize": 15,
+                                      "fontWeight": "normal",
+                                      "letterSpacing": 1
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "naRunB",
+                                  "clip": true,
+                                  "width": 56,
+                                  "height": 70,
+                                  "stroke": "$color.line",
+                                  "strokeWidth": 1,
+                                  "layout": "vertical",
+                                  "padding": 8,
+                                  "justifyContent": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "naRunBT",
+                                      "fill": "$color.ink",
+                                      "textGrowth": "fixed-width",
+                                      "width": 40,
+                                      "content": "111",
+                                      "lineHeight": 1.8,
+                                      "fontFamily": "JetBrains Mono",
+                                      "fontSize": 15,
+                                      "fontWeight": "normal",
+                                      "letterSpacing": 1
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "naRunC",
+                                  "clip": true,
+                                  "width": 182,
+                                  "height": 70,
+                                  "stroke": "$color.line",
+                                  "strokeWidth": 1,
+                                  "layout": "vertical",
+                                  "padding": 8,
+                                  "justifyContent": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "naRunCT",
+                                      "fill": "$color.ink",
+                                      "textGrowth": "fixed-width",
+                                      "width": 166,
+                                      "content": "接收新的任务，处理队列中的任务",
+                                      "lineHeight": 1.8,
+                                      "fontFamily": "JetBrains Mono",
+                                      "fontSize": 15,
+                                      "fontWeight": "normal",
+                                      "letterSpacing": 1
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "naTidy",
+                              "name": "表格行",
+                              "width": 358,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "naTidyA",
+                                  "clip": true,
+                                  "width": 120,
+                                  "height": 97,
+                                  "stroke": "$color.line",
+                                  "strokeWidth": 1,
+                                  "layout": "vertical",
+                                  "padding": 8,
+                                  "justifyContent": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "naTidyAT",
+                                      "fill": "$color.ink",
+                                      "textGrowth": "fixed-width",
+                                      "width": 104,
+                                      "content": "TIDYING",
+                                      "lineHeight": 1.8,
+                                      "fontFamily": "JetBrains Mono",
+                                      "fontSize": 15,
+                                      "fontWeight": "normal",
+                                      "letterSpacing": 1
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "naTidyB",
+                                  "clip": true,
+                                  "width": 56,
+                                  "height": 97,
+                                  "stroke": "$color.line",
+                                  "strokeWidth": 1,
+                                  "layout": "vertical",
+                                  "padding": 8,
+                                  "justifyContent": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "naTidyBT",
+                                      "fill": "$color.ink",
+                                      "textGrowth": "fixed-width",
+                                      "width": 40,
+                                      "content": "010",
+                                      "lineHeight": 1.8,
+                                      "fontFamily": "JetBrains Mono",
+                                      "fontSize": 15,
+                                      "fontWeight": "normal",
+                                      "letterSpacing": 1
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "naTidyC",
+                                  "clip": true,
+                                  "width": 182,
+                                  "height": 97,
+                                  "stroke": "$color.line",
+                                  "strokeWidth": 1,
+                                  "layout": "vertical",
+                                  "padding": 8,
+                                  "justifyContent": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "naTidyCL0",
+                                      "fill": "$color.ink",
+                                      "textGrowth": "fixed-width",
+                                      "width": 166,
+                                      "content": "准备调用 ",
+                                      "lineHeight": 1.8,
+                                      "fontFamily": "JetBrains Mono",
+                                      "fontSize": 15,
+                                      "fontWeight": "normal",
+                                      "letterSpacing": 1
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "naTidyCL1",
+                                      "width": 166,
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "frame",
+                                          "id": "naTidyCL1S0",
+                                          "name": "code",
+                                          "fill": "$color.code",
+                                          "cornerRadius": 4,
+                                          "padding": [
+                                            0,
+                                            2
+                                          ],
+                                          "alignItems": "center",
+                                          "children": [
+                                            {
+                                              "type": "text",
+                                              "id": "naTidyCL1S0T",
+                                              "fill": "$color.ink",
+                                              "textGrowth": "fixed-width",
+                                              "width": 120,
+                                              "content": "terminated()",
+                                              "lineHeight": 1.8,
+                                              "fontFamily": "JetBrains Mono",
+                                              "fontSize": 15,
+                                              "fontWeight": "normal",
+                                              "letterSpacing": 1
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "naTidyCL2",
+                                      "fill": "$color.ink",
+                                      "textGrowth": "fixed-width",
+                                      "width": 166,
+                                      "content": " 钩子方法",
+                                      "lineHeight": 1.8,
+                                      "fontFamily": "JetBrains Mono",
+                                      "fontSize": 15,
+                                      "fontWeight": "normal",
+                                      "letterSpacing": 1
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "naSubmit",
+                  "name": "提交任务",
+                  "width": 358,
+                  "layout": "vertical",
+                  "gap": 10.5,
+                  "padding": [
+                    30,
+                    0,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "naSubmitH",
+                      "fill": "$color.ink",
+                      "textGrowth": "fixed-width",
+                      "width": 358,
+                      "content": "提交任务",
+                      "lineHeight": 1.8,
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 26.25,
+                      "fontWeight": "bold",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "naSubmitP",
+                      "fill": "$color.ink",
+                      "textGrowth": "fixed-width",
+                      "width": 358,
+                      "content": "对外真正提交的只有 execute(Runnable)。步骤是：",
+                      "lineHeight": 1.8,
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 15,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "naSteps",
+                      "width": 358,
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": [
+                        0,
+                        0,
+                        0,
+                        32
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "naStep1",
+                          "name": "段落",
+                          "width": 326,
+                          "layout": "vertical",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "naStep1L0",
+                              "width": 326,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "naStep1L0S0",
+                                  "fill": "$color.ink",
+                                  "textGrowth": "fixed-width",
+                                  "width": 192,
+                                  "content": "1. workerCount 小于 ",
+                                  "lineHeight": 1.8,
+                                  "fontFamily": "JetBrains Mono",
+                                  "fontSize": 15,
+                                  "fontWeight": "normal",
+                                  "letterSpacing": 1
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "naStep1L0S1",
+                                  "name": "code",
+                                  "fill": "$color.code",
+                                  "cornerRadius": 4,
+                                  "padding": [
+                                    0,
+                                    2
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "naStep1L0S1T",
+                                      "fill": "$color.ink",
+                                      "textGrowth": "fixed-width",
+                                      "width": 120,
+                                      "content": "corePoolSize",
+                                      "lineHeight": 1.8,
+                                      "fontFamily": "JetBrains Mono",
+                                      "fontSize": 15,
+                                      "fontWeight": "normal",
+                                      "letterSpacing": 1
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "naStep1L1",
+                              "width": 326,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "naStep1L1S0",
+                                  "fill": "$color.ink",
+                                  "textGrowth": "fixed-width",
+                                  "width": 84,
+                                  "content": " 时，直接 ",
+                                  "lineHeight": 1.8,
+                                  "fontFamily": "JetBrains Mono",
+                                  "fontSize": 15,
+                                  "fontWeight": "normal",
+                                  "letterSpacing": 1
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "naStep1L1S1",
+                                  "name": "code",
+                                  "fill": "$color.code",
+                                  "cornerRadius": 4,
+                                  "padding": [
+                                    0,
+                                    2
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "naStep1L1S1T",
+                                      "fill": "$color.ink",
+                                      "textGrowth": "fixed-width",
+                                      "width": 190,
+                                      "content": "addWorker(command, ",
+                                      "lineHeight": 1.8,
+                                      "fontFamily": "JetBrains Mono",
+                                      "fontSize": 15,
+                                      "fontWeight": "normal",
+                                      "letterSpacing": 1
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "naStep1L2",
+                              "width": 326,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "naStep1L2S0",
+                                  "name": "code",
+                                  "fill": "$color.code",
+                                  "cornerRadius": 4,
+                                  "padding": [
+                                    0,
+                                    2
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "naStep1L2S0T",
+                                      "fill": "$color.ink",
+                                      "textGrowth": "fixed-width",
+                                      "width": 50,
+                                      "content": "true)",
+                                      "lineHeight": 1.8,
+                                      "fontFamily": "JetBrains Mono",
+                                      "fontSize": 15,
+                                      "fontWeight": "normal",
+                                      "letterSpacing": 1
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "naStep1L2S1",
+                                  "fill": "$color.ink",
+                                  "textGrowth": "fixed-width",
+                                  "width": 16,
+                                  "content": "。",
+                                  "lineHeight": 1.8,
+                                  "fontFamily": "JetBrains Mono",
+                                  "fontSize": 15,
+                                  "fontWeight": "normal",
+                                  "letterSpacing": 1
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "naStep2",
+                          "name": "段落",
+                          "width": 326,
+                          "layout": "vertical",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "naStep2L0",
+                              "width": 326,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "naStep2L0S0",
+                                  "fill": "$color.ink",
+                                  "textGrowth": "fixed-width",
+                                  "width": 88,
+                                  "content": "2. 否则用 ",
+                                  "lineHeight": 1.8,
+                                  "fontFamily": "JetBrains Mono",
+                                  "fontSize": 15,
+                                  "fontWeight": "normal",
+                                  "letterSpacing": 1
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "naStep2L0S1",
+                                  "name": "code",
+                                  "fill": "$color.code",
+                                  "cornerRadius": 4,
+                                  "padding": [
+                                    0,
+                                    2
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "naStep2L0S1T",
+                                      "fill": "$color.ink",
+                                      "textGrowth": "fixed-width",
+                                      "width": 140,
+                                      "content": "offer(command)",
+                                      "lineHeight": 1.8,
+                                      "fontFamily": "JetBrains Mono",
+                                      "fontSize": 15,
+                                      "fontWeight": "normal",
+                                      "letterSpacing": 1
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "naStep2L0S2",
+                                  "fill": "$color.ink",
+                                  "textGrowth": "fixed-width",
+                                  "width": 90,
+                                  "content": " 放进队列。",
+                                  "lineHeight": 1.8,
+                                  "fontFamily": "JetBrains Mono",
+                                  "fontSize": 15,
+                                  "fontWeight": "normal",
+                                  "letterSpacing": 1
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "naFooter",
+              "fill": "$color.ink",
+              "textGrowth": "fixed-width",
+              "width": 358,
+              "content": "版权所有 © 2026 fantasticmao |\n技术支持 Hugo & MoMo |\n浙ICP备17009730号",
+              "lineHeight": 1.8,
+              "fontFamily": "JetBrains Mono",
+              "fontSize": 15,
+              "fontWeight": "normal",
+              "letterSpacing": 1
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "naCaption",
+          "x": 2436,
+          "y": 67,
+          "fill": "$color.ink",
+          "textGrowth": "fixed-width",
+          "width": 390,
+          "content": "窄屏正文。栏宽 358。菜单从按钮下拉，不占高度。标题、代码、表格和页脚都在栏内换行。",
+          "lineHeight": 1.8,
+          "fontFamily": "JetBrains Mono",
+          "fontSize": 15,
+          "fontWeight": "normal",
+          "letterSpacing": 1
+        },
+        {
+          "type": "frame",
+          "id": "articlePage",
+          "x": 644,
+          "y": 121,
+          "name": "文章页",
+          "width": 832,
+          "fill": "#FBFBFB",
+          "stroke": "$color.line",
+          "strokeWidth": 1,
+          "layout": "vertical",
+          "gap": 37.5,
+          "padding": 16,
+          "children": [
+            {
+              "type": "frame",
+              "id": "articleHeader",
+              "name": "页眉",
+              "width": 800,
+              "gap": 7.5,
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "articleBrand",
+                  "fill": "$color.ink",
+                  "content": "FantasticMao",
+                  "lineHeight": 1.8,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 17,
+                  "fontWeight": "bold",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "articleNav",
+                  "name": "导航",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "articleNavHome",
+                      "name": "导航项",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "AFBhI",
+                          "fill": "$color.ink",
+                          "content": "首页",
+                          "lineHeight": 1.8,
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 17,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "articleNavTech",
+                      "name": "导航项",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "GrioP",
+                          "fill": "$color.ink",
+                          "content": "编程技术",
+                          "lineHeight": 1.8,
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 17,
+                          "fontWeight": "bold",
+                          "letterSpacing": 1
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "articleNavLife",
+                      "name": "导航项",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "UfYmV",
+                          "fill": "$color.ink",
+                          "content": "生活随笔",
+                          "lineHeight": 1.8,
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 17,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "articleNavAbout",
+                      "name": "导航项",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "TKCaT",
+                          "fill": "$color.ink",
+                          "content": "关于我",
+                          "lineHeight": 1.8,
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 17,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "articleBody",
+              "name": "正文",
+              "width": 800,
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "articleH1",
+                  "fill": "$color.ink",
+                  "content": "Java ThreadPoolExecutor 源码分析",
+                  "lineHeight": 1.8,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 30,
+                  "fontWeight": "bold",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "articleMetaWrap",
+                  "width": 800,
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "articleMeta",
+                      "fill": "$color.quiet",
+                      "content": "发表于 2020-10-01，预计阅读时间 3 分钟",
+                      "lineHeight": 1.8,
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 13,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "preface",
+                  "name": "前言",
+                  "width": 800,
+                  "layout": "vertical",
+                  "gap": 10.5,
+                  "padding": [
+                    22,
+                    0,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "prefaceH",
+                      "fill": "$color.ink",
+                      "content": "前言",
+                      "lineHeight": 1.8,
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 26.25,
+                      "fontWeight": "bold",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "prefaceP1",
+                      "name": "段落",
+                      "width": 800,
+                      "layout": "vertical",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "prefaceP1L0",
+                          "width": 800,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "prefaceP1L0S0",
+                              "fill": "$color.ink",
+                              "textGrowth": "fixed-width",
+                              "width": 360,
+                              "content": "从工作机制来看 ThreadPoolExecutor，包括 ",
+                              "lineHeight": 1.8,
+                              "fontFamily": "JetBrains Mono",
+                              "fontSize": 15,
+                              "fontWeight": "normal",
+                              "letterSpacing": 1
+                            },
+                            {
+                              "type": "text",
+                              "id": "prefaceP1L0S1",
+                              "fill": "$color.link",
+                              "textGrowth": "fixed-width",
+                              "width": 64,
+                              "content": "状态管理",
+                              "lineHeight": 1.8,
+                              "fontFamily": "JetBrains Mono",
+                              "fontSize": 15,
+                              "fontWeight": "normal",
+                              "letterSpacing": 1
+                            },
+                            {
+                              "type": "text",
+                              "id": "prefaceP1L0S2",
+                              "fill": "$color.ink",
+                              "textGrowth": "fixed-width",
+                              "width": 16,
+                              "content": "、",
+                              "lineHeight": 1.8,
+                              "fontFamily": "JetBrains Mono",
+                              "fontSize": 15,
+                              "fontWeight": "normal",
+                              "letterSpacing": 1
+                            },
+                            {
+                              "type": "text",
+                              "id": "prefaceP1L0S3",
+                              "fill": "$color.link",
+                              "textGrowth": "fixed-width",
+                              "width": 64,
+                              "content": "提交任务",
+                              "lineHeight": 1.8,
+                              "fontFamily": "JetBrains Mono",
+                              "fontSize": 15,
+                              "fontWeight": "normal",
+                              "letterSpacing": 1
+                            },
+                            {
+                              "type": "text",
+                              "id": "prefaceP1L0S4",
+                              "fill": "$color.ink",
+                              "textGrowth": "fixed-width",
+                              "width": 36,
+                              "content": " 和 ",
+                              "lineHeight": 1.8,
+                              "fontFamily": "JetBrains Mono",
+                              "fontSize": 15,
+                              "fontWeight": "normal",
+                              "letterSpacing": 1
+                            },
+                            {
+                              "type": "text",
+                              "id": "prefaceP1L0S5",
+                              "fill": "$color.link",
+                              "textGrowth": "fixed-width",
+                              "width": 64,
+                              "content": "执行任务",
+                              "lineHeight": 1.8,
+                              "fontFamily": "JetBrains Mono",
+                              "fontSize": 15,
+                              "fontWeight": "normal",
+                              "letterSpacing": 1
+                            },
+                            {
+                              "type": "text",
+                              "id": "prefaceP1L0S6",
+                              "fill": "$color.ink",
+                              "textGrowth": "fixed-width",
+                              "width": 16,
+                              "content": "。",
+                              "lineHeight": 1.8,
+                              "fontFamily": "JetBrains Mono",
+                              "fontSize": 15,
+                              "fontWeight": "normal",
+                              "letterSpacing": 1
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "workflow",
+                      "name": "图片占位",
+                      "width": 800,
+                      "height": 180,
+                      "stroke": "$color.line",
+                      "strokeWidth": 1,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "workflowLabel",
+                          "fill": "$color.quiet",
+                          "content": "图片",
+                          "lineHeight": 1.8,
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 15,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "state",
+                  "name": "状态管理",
+                  "width": 800,
+                  "layout": "vertical",
+                  "gap": 10.5,
+                  "padding": [
+                    30,
+                    0,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "stateH",
+                      "fill": "$color.ink",
+                      "content": "状态管理",
+                      "lineHeight": 1.8,
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 26.25,
+                      "fontWeight": "bold",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "stateP2",
+                      "name": "段落",
+                      "width": 800,
+                      "layout": "vertical",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "stateP2L0",
+                          "width": 800,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "stateP2L0S0",
+                              "fill": "$color.ink",
+                              "textGrowth": "fixed-width",
+                              "width": 154,
+                              "content": "两个状态合在同一个 ",
+                              "lineHeight": 1.8,
+                              "fontFamily": "JetBrains Mono",
+                              "fontSize": 15,
+                              "fontWeight": "normal",
+                              "letterSpacing": 1
+                            },
+                            {
+                              "type": "frame",
+                              "id": "stateP2L0S1",
+                              "name": "code",
+                              "fill": "$color.code",
+                              "cornerRadius": 4,
+                              "padding": [
+                                0,
+                                2
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "stateP2L0S1T",
+                                  "fill": "$color.ink",
+                                  "textGrowth": "fixed-width",
+                                  "width": 30,
+                                  "content": "ctl",
+                                  "lineHeight": 1.8,
+                                  "fontFamily": "JetBrains Mono",
+                                  "fontSize": 15,
+                                  "fontWeight": "normal",
+                                  "letterSpacing": 1
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "stateP2L0S2",
+                              "fill": "$color.ink",
+                              "textGrowth": "fixed-width",
+                              "width": 132,
+                              "content": " 字段里，类型是 ",
+                              "lineHeight": 1.8,
+                              "fontFamily": "JetBrains Mono",
+                              "fontSize": 15,
+                              "fontWeight": "normal",
+                              "letterSpacing": 1
+                            },
+                            {
+                              "type": "frame",
+                              "id": "stateP2L0S3",
+                              "name": "code",
+                              "fill": "$color.code",
+                              "cornerRadius": 4,
+                              "padding": [
+                                0,
+                                2
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "stateP2L0S3T",
+                                  "fill": "$color.ink",
+                                  "textGrowth": "fixed-width",
+                                  "width": 130,
+                                  "content": "AtomicInteger",
+                                  "lineHeight": 1.8,
+                                  "fontFamily": "JetBrains Mono",
+                                  "fontSize": 15,
+                                  "fontWeight": "normal",
+                                  "letterSpacing": 1
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "stateP2L0S4",
+                              "fill": "$color.ink",
+                              "textGrowth": "fixed-width",
+                              "width": 16,
+                              "content": "。",
+                              "lineHeight": 1.8,
+                              "fontFamily": "JetBrains Mono",
+                              "fontSize": 15,
+                              "fontWeight": "normal",
+                              "letterSpacing": 1
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "stateCode",
+                      "name": "代码",
+                      "width": 800,
+                      "fill": "$color.code",
+                      "cornerRadius": 4,
+                      "stroke": "$color.line",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "padding": 16,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "stateCodeText",
+                          "fill": "$color.ink",
+                          "content": "[000][0 0000 0000 0000 0000 0000 0000 0000]\n  |                    |\n  v                    v\nrunState          workerCount",
+                          "lineHeight": 1.8,
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 12,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ctlEmbed",
+                      "name": "emgithub 源码嵌入",
+                      "width": 800,
+                      "cornerRadius": 4,
+                      "stroke": "$color.line",
+                      "strokeWidth": 1,
+                      "padding": 12,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ctlEmbedLabel",
+                          "fill": "$color.ink",
+                          "content": "emgithub 源码嵌入",
+                          "lineHeight": 1.8,
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 12,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "workerBlock",
+                      "name": "workerCount",
+                      "width": 800,
+                      "layout": "vertical",
+                      "gap": 10.5,
+                      "padding": [
+                        12,
+                        0,
+                        0,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "workerH",
+                          "fill": "$color.ink",
+                          "content": "workerCount",
+                          "lineHeight": 1.8,
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 22.5,
+                          "fontWeight": "bold",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "frame",
+                          "id": "workerP",
+                          "name": "段落",
+                          "width": 800,
+                          "layout": "vertical",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "workerPL0",
+                              "width": 800,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "workerPL0S0",
+                                  "fill": "$color.ink",
+                                  "textGrowth": "fixed-width",
+                                  "width": 126,
+                                  "content": "初始值是 0，占 ",
+                                  "lineHeight": 1.8,
+                                  "fontFamily": "JetBrains Mono",
+                                  "fontSize": 15,
+                                  "fontWeight": "normal",
+                                  "letterSpacing": 1
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "workerPL0S1",
+                                  "name": "code",
+                                  "fill": "$color.code",
+                                  "cornerRadius": 4,
+                                  "padding": [
+                                    0,
+                                    2
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "workerPL0S1T",
+                                      "fill": "$color.ink",
+                                      "textGrowth": "fixed-width",
+                                      "width": 30,
+                                      "content": "ctl",
+                                      "lineHeight": 1.8,
+                                      "fontFamily": "JetBrains Mono",
+                                      "fontSize": 15,
+                                      "fontWeight": "normal",
+                                      "letterSpacing": 1
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "workerPL0S2",
+                                  "fill": "$color.ink",
+                                  "textGrowth": "fixed-width",
+                                  "width": 74,
+                                  "content": " 的低位。",
+                                  "lineHeight": 1.8,
+                                  "fontFamily": "JetBrains Mono",
+                                  "fontSize": 15,
+                                  "fontWeight": "normal",
+                                  "letterSpacing": 1
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "stateTable",
+                          "name": "表格",
+                          "width": 800,
+                          "layout": "vertical",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "trHead",
+                              "name": "表格行",
+                              "width": 800,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "trHeadA",
+                                  "clip": true,
+                                  "width": 160,
+                                  "height": 43,
+                                  "stroke": "$color.line",
+                                  "strokeWidth": 1,
+                                  "layout": "vertical",
+                                  "padding": 8,
+                                  "justifyContent": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "trHeadAT",
+                                      "fill": "$color.ink",
+                                      "textGrowth": "fixed-width",
+                                      "width": 144,
+                                      "content": "枚举值",
+                                      "lineHeight": 1.8,
+                                      "fontFamily": "JetBrains Mono",
+                                      "fontSize": 15,
+                                      "fontWeight": "bold",
+                                      "letterSpacing": 1
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "trHeadB",
+                                  "clip": true,
+                                  "width": 80,
+                                  "height": 43,
+                                  "stroke": "$color.line",
+                                  "strokeWidth": 1,
+                                  "layout": "vertical",
+                                  "padding": 8,
+                                  "justifyContent": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "trHeadBT",
+                                      "fill": "$color.ink",
+                                      "textGrowth": "fixed-width",
+                                      "width": 64,
+                                      "content": "数值",
+                                      "lineHeight": 1.8,
+                                      "fontFamily": "JetBrains Mono",
+                                      "fontSize": 15,
+                                      "fontWeight": "bold",
+                                      "letterSpacing": 1
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "trHeadC",
+                                  "clip": true,
+                                  "width": 560,
+                                  "height": 43,
+                                  "stroke": "$color.line",
+                                  "strokeWidth": 1,
+                                  "layout": "vertical",
+                                  "padding": 8,
+                                  "justifyContent": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "trHeadCT",
+                                      "fill": "$color.ink",
+                                      "textGrowth": "fixed-width",
+                                      "width": 544,
+                                      "content": "描述",
+                                      "lineHeight": 1.8,
+                                      "fontFamily": "JetBrains Mono",
+                                      "fontSize": 15,
+                                      "fontWeight": "bold",
+                                      "letterSpacing": 1
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "trRun",
+                              "name": "表格行",
+                              "width": 800,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "trRunA",
+                                  "clip": true,
+                                  "width": 160,
+                                  "height": 43,
+                                  "stroke": "$color.line",
+                                  "strokeWidth": 1,
+                                  "layout": "vertical",
+                                  "padding": 8,
+                                  "justifyContent": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "trRunAT",
+                                      "fill": "$color.ink",
+                                      "textGrowth": "fixed-width",
+                                      "width": 144,
+                                      "content": "RUNNING",
+                                      "lineHeight": 1.8,
+                                      "fontFamily": "JetBrains Mono",
+                                      "fontSize": 15,
+                                      "fontWeight": "normal",
+                                      "letterSpacing": 1
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "trRunB",
+                                  "clip": true,
+                                  "width": 80,
+                                  "height": 43,
+                                  "stroke": "$color.line",
+                                  "strokeWidth": 1,
+                                  "layout": "vertical",
+                                  "padding": 8,
+                                  "justifyContent": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "trRunBT",
+                                      "fill": "$color.ink",
+                                      "textGrowth": "fixed-width",
+                                      "width": 64,
+                                      "content": "111",
+                                      "lineHeight": 1.8,
+                                      "fontFamily": "JetBrains Mono",
+                                      "fontSize": 15,
+                                      "fontWeight": "normal",
+                                      "letterSpacing": 1
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "trRunC",
+                                  "clip": true,
+                                  "width": 560,
+                                  "height": 43,
+                                  "stroke": "$color.line",
+                                  "strokeWidth": 1,
+                                  "layout": "vertical",
+                                  "padding": 8,
+                                  "justifyContent": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "trRunCT",
+                                      "fill": "$color.ink",
+                                      "textGrowth": "fixed-width",
+                                      "width": 544,
+                                      "content": "接收新的任务，处理队列中的任务",
+                                      "lineHeight": 1.8,
+                                      "fontFamily": "JetBrains Mono",
+                                      "fontSize": 15,
+                                      "fontWeight": "normal",
+                                      "letterSpacing": 1
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "trTidy",
+                              "name": "表格行",
+                              "width": 800,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "trTidyA",
+                                  "clip": true,
+                                  "width": 160,
+                                  "height": 43,
+                                  "stroke": "$color.line",
+                                  "strokeWidth": 1,
+                                  "layout": "vertical",
+                                  "padding": 8,
+                                  "justifyContent": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "trTidyAT",
+                                      "fill": "$color.ink",
+                                      "textGrowth": "fixed-width",
+                                      "width": 144,
+                                      "content": "TIDYING",
+                                      "lineHeight": 1.8,
+                                      "fontFamily": "JetBrains Mono",
+                                      "fontSize": 15,
+                                      "fontWeight": "normal",
+                                      "letterSpacing": 1
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "trTidyB",
+                                  "clip": true,
+                                  "width": 80,
+                                  "height": 43,
+                                  "stroke": "$color.line",
+                                  "strokeWidth": 1,
+                                  "layout": "vertical",
+                                  "padding": 8,
+                                  "justifyContent": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "trTidyBT",
+                                      "fill": "$color.ink",
+                                      "textGrowth": "fixed-width",
+                                      "width": 64,
+                                      "content": "010",
+                                      "lineHeight": 1.8,
+                                      "fontFamily": "JetBrains Mono",
+                                      "fontSize": 15,
+                                      "fontWeight": "normal",
+                                      "letterSpacing": 1
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "trTidyC",
+                                  "clip": true,
+                                  "width": 560,
+                                  "height": 43,
+                                  "stroke": "$color.line",
+                                  "strokeWidth": 1,
+                                  "layout": "vertical",
+                                  "padding": 8,
+                                  "justifyContent": "center",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "trTidyCL0",
+                                      "width": 544,
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "trTidyCL0S0",
+                                          "fill": "$color.ink",
+                                          "textGrowth": "fixed-width",
+                                          "width": 74,
+                                          "content": "准备调用 ",
+                                          "lineHeight": 1.8,
+                                          "fontFamily": "JetBrains Mono",
+                                          "fontSize": 15,
+                                          "fontWeight": "normal",
+                                          "letterSpacing": 1
+                                        },
+                                        {
+                                          "type": "frame",
+                                          "id": "trTidyCL0S1",
+                                          "name": "code",
+                                          "fill": "$color.code",
+                                          "cornerRadius": 4,
+                                          "padding": [
+                                            0,
+                                            2
+                                          ],
+                                          "alignItems": "center",
+                                          "children": [
+                                            {
+                                              "type": "text",
+                                              "id": "trTidyCL0S1T",
+                                              "fill": "$color.ink",
+                                              "textGrowth": "fixed-width",
+                                              "width": 120,
+                                              "content": "terminated()",
+                                              "lineHeight": 1.8,
+                                              "fontFamily": "JetBrains Mono",
+                                              "fontSize": 15,
+                                              "fontWeight": "normal",
+                                              "letterSpacing": 1
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "trTidyCL0S2",
+                                          "fill": "$color.ink",
+                                          "textGrowth": "fixed-width",
+                                          "width": 74,
+                                          "content": " 钩子方法",
+                                          "lineHeight": 1.8,
+                                          "fontFamily": "JetBrains Mono",
+                                          "fontSize": 15,
+                                          "fontWeight": "normal",
+                                          "letterSpacing": 1
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "submit",
+                  "name": "提交任务",
+                  "width": 800,
+                  "layout": "vertical",
+                  "gap": 10.5,
+                  "padding": [
+                    30,
+                    0,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "submitH",
+                      "fill": "$color.ink",
+                      "content": "提交任务",
+                      "lineHeight": 1.8,
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 26.25,
+                      "fontWeight": "bold",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "submitP2",
+                      "fill": "$color.ink",
+                      "textGrowth": "fixed-width",
+                      "width": 800,
+                      "content": "对外真正提交的只有 execute(Runnable)。步骤是：",
+                      "lineHeight": 1.8,
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 15,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "steps",
+                      "width": 800,
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": [
+                        0,
+                        0,
+                        0,
+                        32
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "step1",
+                          "name": "段落",
+                          "width": 768,
+                          "layout": "vertical",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "step1L0",
+                              "width": 768,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "step1L0S0",
+                                  "fill": "$color.ink",
+                                  "textGrowth": "fixed-width",
+                                  "width": 192,
+                                  "content": "1. workerCount 小于 ",
+                                  "lineHeight": 1.8,
+                                  "fontFamily": "JetBrains Mono",
+                                  "fontSize": 15,
+                                  "fontWeight": "normal",
+                                  "letterSpacing": 1
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "step1L0S1",
+                                  "name": "code",
+                                  "fill": "$color.code",
+                                  "cornerRadius": 4,
+                                  "padding": [
+                                    0,
+                                    2
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "step1L0S1T",
+                                      "fill": "$color.ink",
+                                      "textGrowth": "fixed-width",
+                                      "width": 120,
+                                      "content": "corePoolSize",
+                                      "lineHeight": 1.8,
+                                      "fontFamily": "JetBrains Mono",
+                                      "fontSize": 15,
+                                      "fontWeight": "normal",
+                                      "letterSpacing": 1
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "step1L0S2",
+                                  "fill": "$color.ink",
+                                  "textGrowth": "fixed-width",
+                                  "width": 84,
+                                  "content": " 时，直接 ",
+                                  "lineHeight": 1.8,
+                                  "fontFamily": "JetBrains Mono",
+                                  "fontSize": 15,
+                                  "fontWeight": "normal",
+                                  "letterSpacing": 1
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "step1L0S3",
+                                  "name": "code",
+                                  "fill": "$color.code",
+                                  "cornerRadius": 4,
+                                  "padding": [
+                                    0,
+                                    2
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "step1L0S3T",
+                                      "fill": "$color.ink",
+                                      "textGrowth": "fixed-width",
+                                      "width": 240,
+                                      "content": "addWorker(command, true)",
+                                      "lineHeight": 1.8,
+                                      "fontFamily": "JetBrains Mono",
+                                      "fontSize": 15,
+                                      "fontWeight": "normal",
+                                      "letterSpacing": 1
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "step1L0S4",
+                                  "fill": "$color.ink",
+                                  "textGrowth": "fixed-width",
+                                  "width": 16,
+                                  "content": "。",
+                                  "lineHeight": 1.8,
+                                  "fontFamily": "JetBrains Mono",
+                                  "fontSize": 15,
+                                  "fontWeight": "normal",
+                                  "letterSpacing": 1
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "step2",
+                          "name": "段落",
+                          "width": 768,
+                          "layout": "vertical",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "step2L0",
+                              "width": 768,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "step2L0S0",
+                                  "fill": "$color.ink",
+                                  "textGrowth": "fixed-width",
+                                  "width": 88,
+                                  "content": "2. 否则用 ",
+                                  "lineHeight": 1.8,
+                                  "fontFamily": "JetBrains Mono",
+                                  "fontSize": 15,
+                                  "fontWeight": "normal",
+                                  "letterSpacing": 1
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "step2L0S1",
+                                  "name": "code",
+                                  "fill": "$color.code",
+                                  "cornerRadius": 4,
+                                  "padding": [
+                                    0,
+                                    2
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "step2L0S1T",
+                                      "fill": "$color.ink",
+                                      "textGrowth": "fixed-width",
+                                      "width": 140,
+                                      "content": "offer(command)",
+                                      "lineHeight": 1.8,
+                                      "fontFamily": "JetBrains Mono",
+                                      "fontSize": 15,
+                                      "fontWeight": "normal",
+                                      "letterSpacing": 1
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "step2L0S2",
+                                  "fill": "$color.ink",
+                                  "textGrowth": "fixed-width",
+                                  "width": 90,
+                                  "content": " 放进队列。",
+                                  "lineHeight": 1.8,
+                                  "fontFamily": "JetBrains Mono",
+                                  "fontSize": 15,
+                                  "fontWeight": "normal",
+                                  "letterSpacing": 1
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "articleFooter",
+              "name": "页脚",
+              "width": 800,
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "l5fOp4",
+                  "fill": "$color.ink",
+                  "content": "版权所有 © 2026 fantasticmao",
+                  "lineHeight": 1.8,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 15,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "PJV4o",
+                  "fill": "$color.ink",
+                  "content": "|",
+                  "lineHeight": 1.8,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 15,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "b9YQsA",
+                  "fill": "$color.ink",
+                  "content": "技术支持 Hugo & MoMo",
+                  "lineHeight": 1.8,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 15,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "dIk9k",
+                  "fill": "$color.ink",
+                  "content": "|",
+                  "lineHeight": 1.8,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 15,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "gOS3W",
+                  "fill": "$color.ink",
+                  "content": "浙ICP备17009730号",
+                  "lineHeight": 1.8,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 15,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "articleCaption",
+          "x": 644,
+          "y": 94,
+          "fill": "$color.ink",
+          "textGrowth": "fixed-width",
+          "width": 800,
+          "content": "文章。标题上方多留一截，日期用次级色。",
+          "lineHeight": 1.8,
+          "fontFamily": "JetBrains Mono",
+          "fontSize": 15,
+          "fontWeight": "normal",
+          "letterSpacing": 1
+        },
+        {
+          "type": "frame",
+          "id": "notes",
+          "x": 45,
+          "y": 121,
+          "name": "记号",
+          "width": 520,
+          "stroke": "$color.line",
+          "strokeWidth": 1,
+          "layout": "vertical",
+          "gap": 16,
+          "padding": 24,
+          "children": [
+            {
+              "type": "text",
+              "id": "notesTitle",
+              "fill": "$color.ink",
+              "content": "记号",
+              "lineHeight": 1.4,
+              "fontFamily": "JetBrains Mono",
+              "fontSize": 24,
+              "fontWeight": "bold",
+              "letterSpacing": 1
+            },
+            {
+              "type": "text",
+              "id": "notesIntro",
+              "fill": "$color.ink",
+              "textGrowth": "fixed-width",
+              "width": 472,
+              "content": "这次只改阅读节奏，不改栏宽、字号和字距。正文仍是 15，栏宽 800，字距 1px，字体 JetBrains Mono，代码块仍是 12 号、底色 #ECECEC，表格仍是整格线，列宽对齐，行内 code 用同一块灰底，圆角 4，图片通栏，不加框。",
+              "lineHeight": 1.8,
+              "fontFamily": "JetBrains Mono",
+              "fontSize": 15,
+              "fontWeight": "normal",
+              "letterSpacing": 1
+            },
+            {
+              "type": "frame",
+              "id": "swatches",
+              "name": "颜色",
+              "width": 472,
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "swPaper",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "swPaperBox",
+                      "fill": "#FBFBFB",
+                      "width": 28,
+                      "height": 28,
+                      "stroke": "$color.line",
+                      "strokeWidth": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "swPaperLabel",
+                      "fill": "$color.ink",
+                      "content": "纸  #FBFBFB",
+                      "lineHeight": 1.8,
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 14,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "swInk",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "swInkBox",
+                      "fill": "$color.ink",
+                      "width": 28,
+                      "height": 28
+                    },
+                    {
+                      "type": "text",
+                      "id": "swInkLabel",
+                      "fill": "$color.ink",
+                      "content": "墨  #2F2F2F",
+                      "lineHeight": 1.8,
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 14,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "swQuiet",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "swQuietBox",
+                      "fill": "$color.quiet",
+                      "width": 28,
+                      "height": 28
+                    },
+                    {
+                      "type": "text",
+                      "id": "swQuietLabel",
+                      "fill": "$color.ink",
+                      "content": "次级  #5C5C5C",
+                      "lineHeight": 1.8,
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 14,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "swLine",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "swLineBox",
+                      "fill": "$color.line",
+                      "width": 28,
+                      "height": 28
+                    },
+                    {
+                      "type": "text",
+                      "id": "swLineLabel",
+                      "fill": "$color.ink",
+                      "content": "线  #CCCCCC",
+                      "lineHeight": 1.8,
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 14,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "swCode",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "swCodeBox",
+                      "fill": "$color.code",
+                      "width": 28,
+                      "height": 28
+                    },
+                    {
+                      "type": "text",
+                      "id": "swCodeLabel",
+                      "fill": "$color.ink",
+                      "content": "代码底  #ECECEC",
+                      "lineHeight": 1.8,
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 14,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "swLink",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "swLinkBox",
+                      "fill": "$color.link",
+                      "width": 28,
+                      "height": 28
+                    },
+                    {
+                      "type": "text",
+                      "id": "swLinkLabel",
+                      "fill": "$color.ink",
+                      "content": "链接  #1565C0",
+                      "lineHeight": 1.8,
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 14,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "swVisited",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "swVisitedBox",
+                      "fill": "$color.visited",
+                      "width": 28,
+                      "height": 28
+                    },
+                    {
+                      "type": "text",
+                      "id": "swVisitedLabel",
+                      "fill": "$color.ink",
+                      "content": "已访问  #0D47A1",
+                      "lineHeight": 1.8,
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 14,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "notesLinks",
+              "fill": "$color.ink",
+              "textGrowth": "fixed-width",
+              "width": 472,
+              "content": "标题：二级标题上方留 30，三级留 22，标题和紧跟的段落之间是 10.5。日期和列表时间用次级色 #5C5C5C，日期和书名号相距 8。链接默认 #1565C0，没有下划线，悬停才出现下划线；已访问 #0D47A1，不再用 #C01565。页眉站名回到首页，颜色仍是墨色；只有当前栏目加粗，其余常规，间距 16。页脚合成一行：版权 | 技术支持 | 备案号。每页正文至少 600，窄屏也一样。窄屏菜单靠右覆盖，不占高度，图标 #CCCCCC，当前项加粗。有序列表步骤间距 8，左缩进 32。找不到页面只留这一句。",
+              "lineHeight": 1.8,
+              "fontFamily": "JetBrains Mono",
+              "fontSize": 15,
+              "fontWeight": "normal",
+              "letterSpacing": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "color.paper": {
+      "type": "color",
+      "value": "#FBFBFB"
+    },
+    "color.ink": {
+      "type": "color",
+      "value": "#2F2F2F"
+    },
+    "color.quiet": {
+      "type": "color",
+      "value": "#5C5C5C"
+    },
+    "color.line": {
+      "type": "color",
+      "value": "#CCCCCC"
+    },
+    "color.code": {
+      "type": "color",
+      "value": "#ECECEC"
+    },
+    "color.link": {
+      "type": "color",
+      "value": "#1565C0"
+    },
+    "color.visited": {
+      "type": "color",
+      "value": "#0D47A1"
+    },
+    "size.measure": {
+      "type": "number",
+      "value": 800
+    },
+    "size.body": {
+      "type": "number",
+      "value": 600
+    },
+    "radius.code": {
+      "type": "number",
+      "value": 4
+    }
+  },
+  "fileToken": "7678c672-1fe6-468f-ac1c-7a95189f9bda"
+}
