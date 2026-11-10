@@ -16,7 +16,7 @@
           "type": "frame",
           "id": "missingPage",
           "x": 1547,
-          "y": 955,
+          "y": 860,
           "name": "找不到页面页",
           "width": 832,
           "fill": "#FBFBFB",
@@ -134,7 +134,7 @@
               "id": "missingBody",
               "name": "正文",
               "width": 800,
-              "height": 600,
+              "height": 500,
               "layout": "vertical",
               "children": [
                 {
@@ -221,11 +221,11 @@
           "type": "text",
           "id": "missingCaption",
           "x": 1547,
-          "y": 928,
+          "y": 833,
           "fill": "$color.ink",
           "textGrowth": "fixed-width",
           "width": 800,
-          "content": "找不到页面。只保留这一句。正文至少 600 高。",
+          "content": "找不到页面。只保留这一句。正文至少 500 高。",
           "lineHeight": 1.8,
           "fontFamily": "JetBrains Mono",
           "fontSize": 15,
@@ -354,7 +354,7 @@
               "id": "listBody",
               "name": "正文",
               "width": 800,
-              "height": 600,
+              "height": 500,
               "layout": "vertical",
               "children": [
                 {
@@ -615,7 +615,7 @@
           "fill": "$color.ink",
           "textGrowth": "fixed-width",
           "width": 800,
-          "content": "列表。日期和标题同一行，日期用次级色。正文至少 600 高。",
+          "content": "列表。日期和标题同一行，日期用次级色。正文至少 500 高。",
           "lineHeight": 1.8,
           "fontFamily": "JetBrains Mono",
           "fontSize": 15,
@@ -641,28 +641,38 @@
               "id": "narrowBar",
               "name": "顶栏",
               "width": 358,
-              "justifyContent": "space_between",
-              "alignItems": "center",
+              "layout": "vertical",
+              "gap": 8,
               "children": [
                 {
-                  "type": "text",
-                  "id": "narrowBrand",
-                  "fill": "$color.ink",
-                  "content": "FantasticMao",
-                  "lineHeight": 1.8,
-                  "fontFamily": "JetBrains Mono",
-                  "fontSize": 17,
-                  "fontWeight": "bold",
-                  "letterSpacing": 1
-                },
-                {
-                  "type": "icon",
-                  "id": "narrowMenu",
-                  "width": 24,
-                  "height": 24,
-                  "icon": "menu",
-                  "library": "lucide",
-                  "fill": "#CCCCCC"
+                  "type": "frame",
+                  "id": "mp67D",
+                  "name": "站名行",
+                  "width": 358,
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "narrowBrand",
+                      "fill": "$color.ink",
+                      "content": "FantasticMao",
+                      "lineHeight": 1.8,
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 17,
+                      "fontWeight": "bold",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "icon",
+                      "id": "narrowMenu",
+                      "width": 24,
+                      "height": 24,
+                      "icon": "menu",
+                      "library": "lucide",
+                      "fill": "#CCCCCC"
+                    }
+                  ]
                 }
               ]
             },
@@ -671,228 +681,195 @@
               "id": "narrowBody",
               "name": "正文",
               "width": 358,
-              "height": 600,
+              "height": 500,
               "layout": "vertical",
-              "gap": 8,
               "children": [
                 {
+                  "type": "text",
+                  "id": "KHoJ1",
+                  "name": "标题",
+                  "fill": "$color.ink",
+                  "content": "编程技术",
+                  "lineHeight": 1.8,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 30,
+                  "fontWeight": "bold",
+                  "letterSpacing": 1
+                },
+                {
                   "type": "frame",
-                  "id": "narrowPost1",
-                  "name": "文章行",
+                  "id": "f6ntv",
+                  "name": "副标题",
                   "width": 358,
-                  "gap": 8,
+                  "layout": "vertical",
+                  "padding": [
+                    11,
+                    0,
+                    0,
+                    0
+                  ],
                   "children": [
                     {
                       "type": "text",
-                      "id": "gdQZ0",
-                      "fill": "$color.quiet",
-                      "content": "2025-08-05",
+                      "id": "bNstg",
+                      "name": "副标题文字",
+                      "fill": "$color.ink",
+                      "textGrowth": "fixed-width",
+                      "width": 358,
+                      "content": "编程生涯的知识沉淀，所见所闻、所思所想。",
                       "lineHeight": 1.8,
                       "fontFamily": "JetBrains Mono",
                       "fontSize": 15,
                       "fontWeight": "normal",
                       "letterSpacing": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "QfTJs",
+                  "name": "文章列表",
+                  "width": 358,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": [
+                    22,
+                    0,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "narrowPost1",
+                      "name": "文章行",
+                      "width": 358,
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "gdQZ0",
+                          "fill": "$color.quiet",
+                          "content": "2025-08-05",
+                          "lineHeight": 1.8,
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 15,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "pt6fd",
+                          "fill": "$color.link",
+                          "textGrowth": "fixed-width",
+                          "width": 250,
+                          "content": "《如何去做系统的稳定性工作》",
+                          "lineHeight": 1.8,
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 15,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        }
+                      ]
                     },
                     {
-                      "type": "text",
-                      "id": "pt6fd",
-                      "fill": "$color.link",
-                      "textGrowth": "fixed-width",
-                      "width": 250,
-                      "content": "《如何去做系统的稳定性工作》",
-                      "lineHeight": 1.8,
-                      "fontFamily": "JetBrains Mono",
-                      "fontSize": 15,
-                      "fontWeight": "normal",
-                      "letterSpacing": 1
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "narrowPost2",
-                  "name": "文章行",
-                  "width": 358,
-                  "gap": 8,
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "MOa9i",
-                      "fill": "$color.quiet",
-                      "content": "2023-10-30",
-                      "lineHeight": 1.8,
-                      "fontFamily": "JetBrains Mono",
-                      "fontSize": 15,
-                      "fontWeight": "normal",
-                      "letterSpacing": 1
+                      "type": "frame",
+                      "id": "narrowPost2",
+                      "name": "文章行",
+                      "width": 358,
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "MOa9i",
+                          "fill": "$color.quiet",
+                          "content": "2023-10-30",
+                          "lineHeight": 1.8,
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 15,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "f4occh",
+                          "fill": "$color.link",
+                          "textGrowth": "fixed-width",
+                          "width": 250,
+                          "content": "《Kafka 多 Topic 订阅场景下的消费热点问题》",
+                          "lineHeight": 1.8,
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 15,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        }
+                      ]
                     },
                     {
-                      "type": "text",
-                      "id": "f4occh",
-                      "fill": "$color.link",
-                      "textGrowth": "fixed-width",
-                      "width": 250,
-                      "content": "《Kafka 多 Topic 订阅场景下的消费热点问题》",
-                      "lineHeight": 1.8,
-                      "fontFamily": "JetBrains Mono",
-                      "fontSize": 15,
-                      "fontWeight": "normal",
-                      "letterSpacing": 1
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "narrowPost3",
-                  "name": "文章行",
-                  "width": 358,
-                  "gap": 8,
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "N4Oh6e",
-                      "fill": "$color.quiet",
-                      "content": "2021-04-20",
-                      "lineHeight": 1.8,
-                      "fontFamily": "JetBrains Mono",
-                      "fontSize": 15,
-                      "fontWeight": "normal",
-                      "letterSpacing": 1
+                      "type": "frame",
+                      "id": "narrowPost3",
+                      "name": "文章行",
+                      "width": 358,
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "N4Oh6e",
+                          "fill": "$color.quiet",
+                          "content": "2021-04-20",
+                          "lineHeight": 1.8,
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 15,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "D9PwXQ",
+                          "fill": "$color.link",
+                          "textGrowth": "fixed-width",
+                          "width": 250,
+                          "content": "《和女朋友分享计算机知识的日常 —— 生活中的进位制》",
+                          "lineHeight": 1.8,
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 15,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        }
+                      ]
                     },
                     {
-                      "type": "text",
-                      "id": "D9PwXQ",
-                      "fill": "$color.link",
-                      "textGrowth": "fixed-width",
-                      "width": 250,
-                      "content": "《和女朋友分享计算机知识的日常 —— 生活中的进位制》",
-                      "lineHeight": 1.8,
-                      "fontFamily": "JetBrains Mono",
-                      "fontSize": 15,
-                      "fontWeight": "normal",
-                      "letterSpacing": 1
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "narrowPost4",
-                  "name": "文章行",
-                  "width": 358,
-                  "gap": 8,
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "X5eywS",
-                      "fill": "$color.quiet",
-                      "content": "2020-10-01",
-                      "lineHeight": 1.8,
-                      "fontFamily": "JetBrains Mono",
-                      "fontSize": 15,
-                      "fontWeight": "normal",
-                      "letterSpacing": 1
-                    },
-                    {
-                      "type": "text",
-                      "id": "Gslf2",
-                      "fill": "$color.link",
-                      "textGrowth": "fixed-width",
-                      "width": 250,
-                      "content": "《Java ThreadPoolExecutor 源码分析》",
-                      "lineHeight": 1.8,
-                      "fontFamily": "JetBrains Mono",
-                      "fontSize": 15,
-                      "fontWeight": "normal",
-                      "letterSpacing": 1
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "narrowNav",
-              "layoutPosition": "absolute",
-              "x": 254,
-              "y": 52,
-              "name": "菜单",
-              "width": 120,
-              "fill": "#FBFBFB",
-              "stroke": "$color.line",
-              "strokeWidth": 1,
-              "layout": "vertical",
-              "padding": 16,
-              "alignItems": "end",
-              "children": [
-                {
-                  "type": "frame",
-                  "id": "narrowNavHome",
-                  "name": "导航项",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "p8SreR",
-                      "fill": "$color.ink",
-                      "content": "首页",
-                      "lineHeight": 1.8,
-                      "fontFamily": "JetBrains Mono",
-                      "fontSize": 17,
-                      "fontWeight": "normal",
-                      "letterSpacing": 1
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "narrowNavTech",
-                  "name": "导航项",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "S89hfk",
-                      "fill": "$color.ink",
-                      "content": "编程技术",
-                      "lineHeight": 1.8,
-                      "fontFamily": "JetBrains Mono",
-                      "fontSize": 17,
-                      "fontWeight": "bold",
-                      "letterSpacing": 1
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "narrowNavLife",
-                  "name": "导航项",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "yssOR",
-                      "fill": "$color.ink",
-                      "content": "生活随笔",
-                      "lineHeight": 1.8,
-                      "fontFamily": "JetBrains Mono",
-                      "fontSize": 17,
-                      "fontWeight": "normal",
-                      "letterSpacing": 1
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "narrowNavAbout",
-                  "name": "导航项",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "pVEQX",
-                      "fill": "$color.ink",
-                      "content": "关于我",
-                      "lineHeight": 1.8,
-                      "fontFamily": "JetBrains Mono",
-                      "fontSize": 17,
-                      "fontWeight": "normal",
-                      "letterSpacing": 1
+                      "type": "frame",
+                      "id": "narrowPost4",
+                      "name": "文章行",
+                      "width": 358,
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "X5eywS",
+                          "fill": "$color.quiet",
+                          "content": "2020-10-01",
+                          "lineHeight": 1.8,
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 15,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        },
+                        {
+                          "type": "text",
+                          "id": "Gslf2",
+                          "fill": "$color.link",
+                          "textGrowth": "fixed-width",
+                          "width": 250,
+                          "content": "《Java ThreadPoolExecutor 源码分析》",
+                          "lineHeight": 1.8,
+                          "fontFamily": "JetBrains Mono",
+                          "fontSize": 15,
+                          "fontWeight": "normal",
+                          "letterSpacing": 1
+                        }
+                      ]
                     }
                   ]
                 }
@@ -911,6 +888,68 @@
               "fontSize": 15,
               "fontWeight": "normal",
               "letterSpacing": 1
+            },
+            {
+              "type": "frame",
+              "id": "TJAUz",
+              "layoutPosition": "absolute",
+              "x": 16,
+              "y": 47,
+              "name": "栏目",
+              "width": 358,
+              "fill": "#FBFBFB",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "d9Z4b",
+                  "name": "首页",
+                  "fill": "$color.ink",
+                  "content": "首页",
+                  "lineHeight": 1.8,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 17,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "iNNIx",
+                  "name": "编程技术",
+                  "fill": "$color.ink",
+                  "content": "编程技术",
+                  "lineHeight": 1.8,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 17,
+                  "fontWeight": "bold",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "Pm0ec",
+                  "name": "生活随笔",
+                  "fill": "$color.ink",
+                  "content": "生活随笔",
+                  "lineHeight": 1.8,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 17,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "HjhHq",
+                  "name": "关于我",
+                  "fill": "$color.ink",
+                  "content": "关于我",
+                  "lineHeight": 1.8,
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 17,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                }
+              ]
             }
           ]
         },
@@ -922,7 +961,7 @@
           "fill": "$color.ink",
           "textGrowth": "fixed-width",
           "width": 390,
-          "content": "窄屏。菜单从按钮下拉，不占高度。日期和标题同一行，标题在栏内换行。正文至少 600 高。页脚和宽屏一样，在栏内换行。",
+          "content": "窄屏列表。菜单打开。四个栏目浮在正文上，两端对齐，不占高度。当前项加粗。日期和标题同一行，标题在栏内换行。正文至少 500 高。页脚在栏内换行。",
           "lineHeight": 1.8,
           "fontFamily": "JetBrains Mono",
           "fontSize": 15,
@@ -948,28 +987,38 @@
               "id": "naBar",
               "name": "顶栏",
               "width": 358,
-              "justifyContent": "space_between",
-              "alignItems": "center",
+              "layout": "vertical",
+              "gap": 8,
               "children": [
                 {
-                  "type": "text",
-                  "id": "naBrand",
-                  "fill": "$color.ink",
-                  "content": "FantasticMao",
-                  "lineHeight": 1.8,
-                  "fontFamily": "JetBrains Mono",
-                  "fontSize": 17,
-                  "fontWeight": "bold",
-                  "letterSpacing": 1
-                },
-                {
-                  "type": "icon",
-                  "id": "naMenu",
-                  "width": 24,
-                  "height": 24,
-                  "icon": "menu",
-                  "library": "lucide",
-                  "fill": "#CCCCCC"
+                  "type": "frame",
+                  "id": "D9JneP",
+                  "name": "站名行",
+                  "width": 358,
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "naBrand",
+                      "fill": "$color.ink",
+                      "content": "FantasticMao",
+                      "lineHeight": 1.8,
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 17,
+                      "fontWeight": "bold",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "icon",
+                      "id": "naMenu",
+                      "width": 24,
+                      "height": 24,
+                      "icon": "menu",
+                      "library": "lucide",
+                      "fill": "$color.ink"
+                    }
+                  ]
                 }
               ]
             },
@@ -2120,11 +2169,11 @@
           "type": "text",
           "id": "naCaption",
           "x": 2436,
-          "y": 67,
+          "y": 60,
           "fill": "$color.ink",
           "textGrowth": "fixed-width",
           "width": 390,
-          "content": "窄屏正文。栏宽 358。菜单从按钮下拉，不占高度。标题、代码、表格和页脚都在栏内换行。",
+          "content": "窄屏正文。栏宽 358。菜单关闭，按钮和文字同色。标题、代码、表格和页脚都在栏内换行。",
           "lineHeight": 1.8,
           "fontFamily": "JetBrains Mono",
           "fontSize": 15,
@@ -3365,7 +3414,7 @@
           "fill": "$color.ink",
           "textGrowth": "fixed-width",
           "width": 800,
-          "content": "文章。标题上方多留一截，日期用次级色。",
+          "content": "正文。标题上方多留一截，日期用次级色。",
           "lineHeight": 1.8,
           "fontFamily": "JetBrains Mono",
           "fontSize": 15,
@@ -3402,7 +3451,7 @@
               "fill": "$color.ink",
               "textGrowth": "fixed-width",
               "width": 472,
-              "content": "这次只改阅读节奏，不改栏宽、字号和字距。正文仍是 15，栏宽 800，字距 1px，字体 JetBrains Mono，代码块仍是 12 号、底色 #ECECEC，表格仍是整格线，列宽对齐，行内 code 用同一块灰底，圆角 4，图片通栏，不加框。",
+              "content": "栏宽 800，正文 15，字距 1px，字体 JetBrains Mono，书名号留下。代码块 12 号、底色 #ECECEC、边框 1px #CCCCCC、圆角 4。行内 code 同一块灰底、圆角 4，并且可以换行。表格整格线、单元格白底，格内文字换行。图片通栏，不加框。",
               "lineHeight": 1.8,
               "fontFamily": "JetBrains Mono",
               "fontSize": 15,
@@ -3609,7 +3658,7 @@
               "fill": "$color.ink",
               "textGrowth": "fixed-width",
               "width": 472,
-              "content": "标题：二级标题上方留 30，三级留 22，标题和紧跟的段落之间是 10.5。日期和列表时间用次级色 #5C5C5C，日期和书名号相距 8。链接默认 #1565C0，没有下划线，悬停才出现下划线；已访问 #0D47A1，不再用 #C01565。页眉站名回到首页，颜色仍是墨色；只有当前栏目加粗，其余常规，间距 16。页脚合成一行：版权 | 技术支持 | 备案号。每页正文至少 600，窄屏也一样。窄屏菜单靠右覆盖，不占高度，图标 #CCCCCC，当前项加粗。有序列表步骤间距 8，左缩进 32。找不到页面只留这一句。",
+              "content": "二级标题上方 30，紧挨元信息的第一个二级标题上方 22，三级标题上方约 22。标题和段落、段落之间是 10.5。文章日期和列表日期用 #5C5C5C，日期和书名号相距 8。正文链接 #1565C0，默认没有下划线，悬停才出现；已访问 #0D47A1，不再用 #C01565。页眉、页脚链接保持墨色。站名链到首页，颜色仍是墨色。只有当前栏目加粗。宽屏导航间距 16。页脚一行：版权 | 技术支持 | 备案号，间距 8。窄屏用同一套内容，在栏内换行。所有页面的正文最小高度都是 500，内容超过 500 时按内容增高。窄屏列表和宽屏列表是同一套内容：栏目标题、栏目介绍，然后日期和书名号标题同一行，标题在栏内换行。窄屏菜单关闭时只留站名和菜单按钮，按钮和文字同色。打开后四个栏目浮在正文上，两端对齐、水平分布，不占高度；按钮这时才变成 #CCCCCC。当前项加粗。没有边框，也没有下拉面板。有序列表步骤间距 8，左缩进 32。找不到页面只留这一句。",
               "lineHeight": 1.8,
               "fontFamily": "JetBrains Mono",
               "fontSize": 15,
@@ -3656,7 +3705,7 @@
     },
     "size.body": {
       "type": "number",
-      "value": 600
+      "value": 500
     },
     "radius.code": {
       "type": "number",

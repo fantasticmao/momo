@@ -1,5 +1,5 @@
 <header>
-    <strong>{{ .Site.Title }}</strong>
+    <a href="{{ "/" | relLangURL }}">{{ .Site.Title }}</a>
     <input id="menu-toggle" type="checkbox">
     <label class="menu-button" for="menu-toggle">
         <span class="iconfont iconfont-bars"></span>
@@ -8,7 +8,15 @@
     <nav class="menu-nav">
         <ul>
             {{- range $idx, $val := sort . }}
-            <li><strong><a href="{{ $val.URL | safeURL }}">{{ $val.Name }}</a></strong></li>
+            <li>
+                {{- $menuURL := $val.URL | relURL -}}
+                {{- $section := printf "%s/" (strings.TrimRight "/" $menuURL) -}}
+                {{- if or ($.IsMenuCurrent "main" $val) ($.HasMenuCurrent "main" $val) (eq $.RelPermalink $menuURL) (and (ne $menuURL "/") (hasPrefix $.RelPermalink $section)) }}
+                <strong><a href="{{ $val.URL | safeURL }}">{{ $val.Name }}</a></strong>
+                {{- else }}
+                <a href="{{ $val.URL | safeURL }}">{{ $val.Name }}</a>
+                {{- end }}
+            </li>
             {{- end }}
         </ul>
     </nav>

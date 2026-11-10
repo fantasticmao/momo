@@ -3,14 +3,16 @@
   --white: #fbfbfb;
   --light: #ececec;
   --black: #2f2f2f;
+  --black-light: #5c5c5c;
   --gray: #cccccc;
   --blue: #1565c0;
-  --wine: #c01565;
+  --blue-deep: #0d47a1;
 
   --text: var(--black);
   --line: var(--gray);
+  --quiet: var(--black-light);
   --link: var(--blue);
-  --link-visit: var(--wine);
+  --link-visit: var(--blue-deep);
 
   font-family: "JetBrains Mono", "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", sans-serif;
   font-size: 15px;
@@ -49,6 +51,7 @@ header {
 main {
   margin: 0;
   padding: 0;
+  min-height: 500px;
 }
 
 main > article {
@@ -74,18 +77,29 @@ footer {
 }
 
 footer ul {
-  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: baseline;
+  gap: 0.5rem;
 
+  list-style: none;
   margin: 0;
   padding: 0;
   width: 100%;
 }
 
 footer ul > li {
-  display: inline;
+  white-space: nowrap;
 }
 
-h1, h2, h3, h4, h5, h6, p, li {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li {
   margin: 0;
   padding: 0;
 
@@ -97,6 +111,15 @@ h1 {
   font-size: 2rem;
 }
 
+article h2 {
+  margin-top: calc(2rem - 0.7rem);
+}
+
+article h2:first-of-type,
+article h3 {
+  margin-top: calc(1.6rem - 0.7rem);
+}
+
 h2 {
   font-size: 1.75rem;
 }
@@ -105,7 +128,9 @@ h3 {
   font-size: 1.5rem;
 }
 
-h4, h5, h6 {
+h4,
+h5,
+h6 {
   font-size: 1.25rem;
 }
 
@@ -113,20 +138,43 @@ small {
   font-size: calc(1rem - 2px);
 }
 
-ul, ol {
+main small,
+main > article > p > span {
+  color: var(--quiet);
+}
+
+main > article > p > span + a {
+  margin-left: 0.5rem;
+}
+
+ul,
+ol {
   margin: 0;
   padding-left: 2rem;
 }
 
-li table, li img, li .highlight {
+ol li + li {
+  margin-top: 0.5rem;
+}
+
+li table,
+li img,
+li pre {
   margin-top: 1rem;
 }
 
-table, th, td {
+table,
+th,
+td {
   padding: 0.5rem;
 
   text-align: left;
   border: 1px solid var(--line);
+}
+
+td,
+th {
+  overflow-wrap: anywhere;
 }
 
 table {
@@ -157,6 +205,10 @@ code {
   border-radius: 4px;
 }
 
+:not(pre) > code {
+  overflow-wrap: anywhere;
+}
+
 pre > code {
   padding: 0;
 }
@@ -170,24 +222,45 @@ blockquote {
   border-radius: 4px;
 }
 
-a, a:link {
+a,
+a:link {
   color: var(--text);
   text-decoration: none;
 }
 
-a:focus, a:hover, a:active {
+a:focus,
+a:hover,
+a:active {
   text-decoration: underline;
 }
 
-main a, main a:link {
+main a,
+main a:link {
   color: var(--link);
 }
 
-main a:focus, main a:hover, main a:active {
+main a:visited {
   color: var(--link-visit);
 }
 
+main a:focus,
+main a:hover,
+main a:active {
+  color: var(--link);
+  text-decoration: underline;
+}
+
+header > a,
+header > a:hover,
+header > a:focus,
+header > a:active {
+  color: var(--text);
+  font-weight: bold;
+  text-decoration: none;
+}
+
 img {
+  display: block;
   max-width: 100%;
   border-style: none;
 }
@@ -201,7 +274,9 @@ img {
 
   visibility: visible;
   opacity: 0.5;
-  transition: visibility 0.3s, opacity 0.3s;
+  transition:
+    visibility 0.3s,
+    opacity 0.3s;
 }
 
 #menu-toggle {
@@ -217,14 +292,14 @@ img {
 }
 
 .menu-nav ul {
-  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  gap: 1rem;
 
+  list-style: none;
   margin: 0;
   padding: 0;
-}
-
-.menu-nav ul > li {
-  display: inline;
 }
 
 @media only screen and (max-width: calc(800px + 2rem)) {
@@ -234,40 +309,41 @@ img {
 }
 
 @media only screen and (max-width: 640px) {
-  #menu-toggle:checked + label + .menu-nav {
-    display: block;
-
-    width: 100%;
-  }
-
-  #menu-toggle:checked + label > span {
-    color: var(--gray);
+  header {
+    position: relative;
+    z-index: 2;
   }
 
   .menu-button {
     display: block;
+    color: var(--text);
   }
 
   .menu-nav {
     display: none;
   }
 
+  #menu-toggle:checked + label > span {
+    color: var(--gray);
+  }
+
+  #menu-toggle:checked + label + .menu-nav {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 2;
+
+    width: 100%;
+    background-color: var(--white);
+  }
+
   .menu-nav ul {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-between;
-    align-items: stretch;
+    width: 100%;
   }
 }
 
-.highlight {
-  overflow: hidden;
-
-  border: 1px solid var(--line);
-  border-radius: 4px;
-}
-
-.utterances {
+#comments > div {
   max-width: 100% !important;
 }
