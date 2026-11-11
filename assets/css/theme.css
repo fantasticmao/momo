@@ -9,15 +9,17 @@
   --blue-deep: #0d47a1;
 
   --text: var(--black);
+  --text-tips: var(--black-light);
   --line: var(--gray);
-  --quiet: var(--black-light);
   --link: var(--blue);
-  --link-visit: var(--blue-deep);
+  --link-visited: var(--blue-deep);
 
   font-family: "JetBrains Mono", "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", sans-serif;
   font-size: 15px;
   letter-spacing: 1px;
   line-height: 1.8;
+  text-align: start;
+  word-break: break-all;
 
   background-color: var(--white);
   color: var(--text);
@@ -76,22 +78,6 @@ footer {
   padding: 0;
 }
 
-footer ul {
-  display: flex;
-  flex-flow: row wrap;
-  align-items: baseline;
-  gap: 0.5rem;
-
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
-
-footer ul > li {
-  white-space: nowrap;
-}
-
 h1,
 h2,
 h3,
@@ -102,22 +88,10 @@ p,
 li {
   margin: 0;
   padding: 0;
-
-  text-align: start;
-  word-break: break-word;
 }
 
 h1 {
   font-size: 2rem;
-}
-
-article h2 {
-  margin-top: calc(2rem - 0.7rem);
-}
-
-article h2:first-of-type,
-article h3 {
-  margin-top: calc(1.6rem - 0.7rem);
 }
 
 h2 {
@@ -134,32 +108,15 @@ h6 {
   font-size: 1.25rem;
 }
 
-small {
-  font-size: calc(1rem - 2px);
-}
-
-main small,
-main > article > p > span {
-  color: var(--quiet);
-}
-
-main > article > p > span + a {
-  margin-left: 0.5rem;
-}
-
 ul,
 ol {
   margin: 0;
   padding-left: 2rem;
 }
 
-ol li + li {
-  margin-top: 0.5rem;
-}
-
 li table,
 li img,
-li pre {
+li .highlight {
   margin-top: 1rem;
 }
 
@@ -170,11 +127,6 @@ td {
 
   text-align: left;
   border: 1px solid var(--line);
-}
-
-td,
-th {
-  overflow-wrap: anywhere;
 }
 
 table {
@@ -205,10 +157,6 @@ code {
   border-radius: 4px;
 }
 
-:not(pre) > code {
-  overflow-wrap: anywhere;
-}
-
 pre > code {
   padding: 0;
 }
@@ -222,10 +170,13 @@ blockquote {
   border-radius: 4px;
 }
 
-a,
-a:link {
-  color: var(--text);
+a {
+  color: var(--link);
   text-decoration: none;
+}
+
+a:visited {
+  color: var(--link-visited);
 }
 
 a:focus,
@@ -234,29 +185,17 @@ a:active {
   text-decoration: underline;
 }
 
-main a,
-main a:link {
-  color: var(--link);
-}
-
-main a:visited {
-  color: var(--link-visit);
-}
-
-main a:focus,
-main a:hover,
-main a:active {
-  color: var(--link);
-  text-decoration: underline;
-}
-
-header > a,
-header > a:hover,
-header > a:focus,
-header > a:active {
+header a,
+header a:visited,
+footer a,
+footer a:visited {
   color: var(--text);
+}
+
+header a:hover,
+header a:focus,
+header a:active {
   font-weight: bold;
-  text-decoration: none;
 }
 
 img {
@@ -344,6 +283,21 @@ img {
   }
 }
 
-#comments > div {
+.post-list > span + * {
+  margin-left: 0.5rem;
+}
+
+.post-tips {
+  color: var(--text-tips);
+}
+
+.highlight {
+  overflow: hidden;
+
+  border: 1px solid var(--line);
+  border-radius: 4px;
+}
+
+.utterances {
   max-width: 100% !important;
 }

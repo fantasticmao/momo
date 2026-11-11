@@ -151,69 +151,18 @@
               ]
             },
             {
-              "type": "frame",
-              "id": "missingFooter",
+              "type": "text",
+              "id": "r4xAYK",
               "name": "页脚",
+              "fill": "$color.ink",
+              "textGrowth": "fixed-width",
               "width": 800,
-              "gap": 8,
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "text",
-                  "id": "JVdjs",
-                  "fill": "$color.ink",
-                  "content": "版权所有 © 2026 fantasticmao",
-                  "lineHeight": 1.8,
-                  "fontFamily": "JetBrains Mono",
-                  "fontSize": 15,
-                  "fontWeight": "normal",
-                  "letterSpacing": 1
-                },
-                {
-                  "type": "text",
-                  "id": "Wqfh9",
-                  "fill": "$color.ink",
-                  "content": "|",
-                  "lineHeight": 1.8,
-                  "fontFamily": "JetBrains Mono",
-                  "fontSize": 15,
-                  "fontWeight": "normal",
-                  "letterSpacing": 1
-                },
-                {
-                  "type": "text",
-                  "id": "Yn5LX",
-                  "fill": "$color.ink",
-                  "content": "技术支持 Hugo & MoMo",
-                  "lineHeight": 1.8,
-                  "fontFamily": "JetBrains Mono",
-                  "fontSize": 15,
-                  "fontWeight": "normal",
-                  "letterSpacing": 1
-                },
-                {
-                  "type": "text",
-                  "id": "T1qQJ",
-                  "fill": "$color.ink",
-                  "content": "|",
-                  "lineHeight": 1.8,
-                  "fontFamily": "JetBrains Mono",
-                  "fontSize": 15,
-                  "fontWeight": "normal",
-                  "letterSpacing": 1
-                },
-                {
-                  "type": "text",
-                  "id": "D8PijF",
-                  "fill": "$color.ink",
-                  "content": "浙ICP备17009730号",
-                  "lineHeight": 1.8,
-                  "fontFamily": "JetBrains Mono",
-                  "fontSize": 15,
-                  "fontWeight": "normal",
-                  "letterSpacing": 1
-                }
-              ]
+              "content": "版权所有 © 2026 fantasticmao | 技术支持 Hugo & MoMo | 浙ICP备17009730号",
+              "lineHeight": 1.8,
+              "fontFamily": "JetBrains Mono",
+              "fontSize": 15,
+              "fontWeight": "normal",
+              "letterSpacing": 1
             }
           ]
         },
@@ -419,7 +368,7 @@
                         {
                           "type": "text",
                           "id": "NvOii",
-                          "fill": "$color.quiet",
+                          "fill": "$color.ink",
                           "content": "2025-08-05",
                           "lineHeight": 1.8,
                           "fontFamily": "JetBrains Mono",
@@ -451,7 +400,7 @@
                         {
                           "type": "text",
                           "id": "IvDli",
-                          "fill": "$color.quiet",
+                          "fill": "$color.ink",
                           "content": "2023-10-30",
                           "lineHeight": 1.8,
                           "fontFamily": "JetBrains Mono",
@@ -483,7 +432,7 @@
                         {
                           "type": "text",
                           "id": "xn2gp",
-                          "fill": "$color.quiet",
+                          "fill": "$color.ink",
                           "content": "2021-04-20",
                           "lineHeight": 1.8,
                           "fontFamily": "JetBrains Mono",
@@ -515,7 +464,7 @@
                         {
                           "type": "text",
                           "id": "l6HfjG",
-                          "fill": "$color.quiet",
+                          "fill": "$color.ink",
                           "content": "2020-10-01",
                           "lineHeight": 1.8,
                           "fontFamily": "JetBrains Mono",
@@ -541,69 +490,18 @@
               ]
             },
             {
-              "type": "frame",
-              "id": "listFooter",
+              "type": "text",
+              "id": "nYfw9",
               "name": "页脚",
+              "fill": "$color.ink",
+              "textGrowth": "fixed-width",
               "width": 800,
-              "gap": 8,
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "text",
-                  "id": "yJVOc",
-                  "fill": "$color.ink",
-                  "content": "版权所有 © 2026 fantasticmao",
-                  "lineHeight": 1.8,
-                  "fontFamily": "JetBrains Mono",
-                  "fontSize": 15,
-                  "fontWeight": "normal",
-                  "letterSpacing": 1
-                },
-                {
-                  "type": "text",
-                  "id": "CRHxs",
-                  "fill": "$color.ink",
-                  "content": "|",
-                  "lineHeight": 1.8,
-                  "fontFamily": "JetBrains Mono",
-                  "fontSize": 15,
-                  "fontWeight": "normal",
-                  "letterSpacing": 1
-                },
-                {
-                  "type": "text",
-                  "id": "c3ICo",
-                  "fill": "$color.ink",
-                  "content": "技术支持 Hugo & MoMo",
-                  "lineHeight": 1.8,
-                  "fontFamily": "JetBrains Mono",
-                  "fontSize": 15,
-                  "fontWeight": "normal",
-                  "letterSpacing": 1
-                },
-                {
-                  "type": "text",
-                  "id": "DClc8",
-                  "fill": "$color.ink",
-                  "content": "|",
-                  "lineHeight": 1.8,
-                  "fontFamily": "JetBrains Mono",
-                  "fontSize": 15,
-                  "fontWeight": "normal",
-                  "letterSpacing": 1
-                },
-                {
-                  "type": "text",
-                  "id": "S99Bo5",
-                  "fill": "$color.ink",
-                  "content": "浙ICP备17009730号",
-                  "lineHeight": 1.8,
-                  "fontFamily": "JetBrains Mono",
-                  "fontSize": 15,
-                  "fontWeight": "normal",
-                  "letterSpacing": 1
-                }
-              ]
+              "content": "版权所有 © 2026 fantasticmao | 技术支持 Hugo & MoMo | 浙ICP备17009730号",
+              "lineHeight": 1.8,
+              "fontFamily": "JetBrains Mono",
+              "fontSize": 15,
+              "fontWeight": "normal",
+              "letterSpacing": 1
             }
           ]
         },
@@ -615,7 +513,7 @@
           "fill": "$color.ink",
           "textGrowth": "fixed-width",
           "width": 800,
-          "content": "列表。日期和标题同一行，日期用次级色。正文至少 500 高。",
+          "content": "列表。日期和标题同一行，日期用墨色，相距 8。标题换行后从栏左缘继续。正文至少 500 高。",
           "lineHeight": 1.8,
           "fontFamily": "JetBrains Mono",
           "fontSize": 15,
@@ -749,7 +647,7 @@
                         {
                           "type": "text",
                           "id": "gdQZ0",
-                          "fill": "$color.quiet",
+                          "fill": "$color.ink",
                           "content": "2025-08-05",
                           "lineHeight": 1.8,
                           "fontFamily": "JetBrains Mono",
@@ -762,7 +660,7 @@
                           "id": "pt6fd",
                           "fill": "$color.link",
                           "textGrowth": "fixed-width",
-                          "width": 250,
+                          "width": 225,
                           "content": "《如何去做系统的稳定性工作》",
                           "lineHeight": 1.8,
                           "fontFamily": "JetBrains Mono",
@@ -777,26 +675,50 @@
                       "id": "narrowPost2",
                       "name": "文章行",
                       "width": 358,
-                      "gap": 8,
+                      "layout": "vertical",
                       "children": [
                         {
-                          "type": "text",
-                          "id": "MOa9i",
-                          "fill": "$color.quiet",
-                          "content": "2023-10-30",
-                          "lineHeight": 1.8,
-                          "fontFamily": "JetBrains Mono",
-                          "fontSize": 15,
-                          "fontWeight": "normal",
-                          "letterSpacing": 1
+                          "type": "frame",
+                          "id": "IgHco",
+                          "name": "首行",
+                          "width": 358,
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "MOa9i",
+                              "fill": "$color.ink",
+                              "content": "2023-10-30",
+                              "lineHeight": 1.8,
+                              "fontFamily": "JetBrains Mono",
+                              "fontSize": 15,
+                              "fontWeight": "normal",
+                              "letterSpacing": 1
+                            },
+                            {
+                              "type": "text",
+                              "id": "f4occh",
+                              "fill": "$color.link",
+                              "textGrowth": "fixed-width",
+                              "width": 243,
+                              "content": "《Kafka 多 Topic 订阅场景下",
+                              "lineHeight": 1.8,
+                              "fontFamily": "JetBrains Mono",
+                              "fontSize": 15,
+                              "fontWeight": "normal",
+                              "letterSpacing": 1
+                            }
+                          ]
                         },
                         {
                           "type": "text",
-                          "id": "f4occh",
+                          "id": "BpMRY",
+                          "name": "书名号续行",
                           "fill": "$color.link",
                           "textGrowth": "fixed-width",
-                          "width": 250,
-                          "content": "《Kafka 多 Topic 订阅场景下的消费热点问题》",
+                          "width": 358,
+                          "content": "的消费热点问题》",
                           "lineHeight": 1.8,
                           "fontFamily": "JetBrains Mono",
                           "fontSize": 15,
@@ -810,26 +732,50 @@
                       "id": "narrowPost3",
                       "name": "文章行",
                       "width": 358,
-                      "gap": 8,
+                      "layout": "vertical",
                       "children": [
                         {
-                          "type": "text",
-                          "id": "N4Oh6e",
-                          "fill": "$color.quiet",
-                          "content": "2021-04-20",
-                          "lineHeight": 1.8,
-                          "fontFamily": "JetBrains Mono",
-                          "fontSize": 15,
-                          "fontWeight": "normal",
-                          "letterSpacing": 1
+                          "type": "frame",
+                          "id": "iqcyQ",
+                          "name": "首行",
+                          "width": 358,
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "N4Oh6e",
+                              "fill": "$color.ink",
+                              "content": "2021-04-20",
+                              "lineHeight": 1.8,
+                              "fontFamily": "JetBrains Mono",
+                              "fontSize": 15,
+                              "fontWeight": "normal",
+                              "letterSpacing": 1
+                            },
+                            {
+                              "type": "text",
+                              "id": "D9PwXQ",
+                              "fill": "$color.link",
+                              "textGrowth": "fixed-width",
+                              "width": 241,
+                              "content": "《和女朋友分享计算机知识的日常",
+                              "lineHeight": 1.8,
+                              "fontFamily": "JetBrains Mono",
+                              "fontSize": 15,
+                              "fontWeight": "normal",
+                              "letterSpacing": 1
+                            }
+                          ]
                         },
                         {
                           "type": "text",
-                          "id": "D9PwXQ",
+                          "id": "qM9jj",
+                          "name": "书名号续行",
                           "fill": "$color.link",
                           "textGrowth": "fixed-width",
-                          "width": 250,
-                          "content": "《和女朋友分享计算机知识的日常 —— 生活中的进位制》",
+                          "width": 358,
+                          "content": " —— 生活中的进位制》",
                           "lineHeight": 1.8,
                           "fontFamily": "JetBrains Mono",
                           "fontSize": 15,
@@ -843,26 +789,50 @@
                       "id": "narrowPost4",
                       "name": "文章行",
                       "width": 358,
-                      "gap": 8,
+                      "layout": "vertical",
                       "children": [
                         {
-                          "type": "text",
-                          "id": "X5eywS",
-                          "fill": "$color.quiet",
-                          "content": "2020-10-01",
-                          "lineHeight": 1.8,
-                          "fontFamily": "JetBrains Mono",
-                          "fontSize": 15,
-                          "fontWeight": "normal",
-                          "letterSpacing": 1
+                          "type": "frame",
+                          "id": "Y45GBb",
+                          "name": "首行",
+                          "width": 358,
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "X5eywS",
+                              "fill": "$color.ink",
+                              "content": "2020-10-01",
+                              "lineHeight": 1.8,
+                              "fontFamily": "JetBrains Mono",
+                              "fontSize": 15,
+                              "fontWeight": "normal",
+                              "letterSpacing": 1
+                            },
+                            {
+                              "type": "text",
+                              "id": "Gslf2",
+                              "fill": "$color.link",
+                              "textGrowth": "fixed-width",
+                              "width": 247,
+                              "content": "《Java ThreadPoolExecutor",
+                              "lineHeight": 1.8,
+                              "fontFamily": "JetBrains Mono",
+                              "fontSize": 15,
+                              "fontWeight": "normal",
+                              "letterSpacing": 1
+                            }
+                          ]
                         },
                         {
                           "type": "text",
-                          "id": "Gslf2",
+                          "id": "BWauG",
+                          "name": "书名号续行",
                           "fill": "$color.link",
                           "textGrowth": "fixed-width",
-                          "width": 250,
-                          "content": "《Java ThreadPoolExecutor 源码分析》",
+                          "width": 358,
+                          "content": " 源码分析》",
                           "lineHeight": 1.8,
                           "fontFamily": "JetBrains Mono",
                           "fontSize": 15,
@@ -882,7 +852,7 @@
               "fill": "$color.ink",
               "textGrowth": "fixed-width",
               "width": 358,
-              "content": "版权所有 © 2026 fantasticmao |\n技术支持 Hugo & MoMo |\n浙ICP备17009730号",
+              "content": "版权所有 © 2026 fantasticmao | 技术支\n持 Hugo & MoMo | 浙ICP备17009730号",
               "lineHeight": 1.8,
               "fontFamily": "JetBrains Mono",
               "fontSize": 15,
@@ -957,11 +927,11 @@
           "type": "text",
           "id": "narrowCaption",
           "x": 2895,
-          "y": 40,
+          "y": 13,
           "fill": "$color.ink",
           "textGrowth": "fixed-width",
           "width": 390,
-          "content": "窄屏列表。菜单打开。四个栏目浮在正文上，两端对齐，不占高度。当前项加粗。日期和标题同一行，标题在栏内换行。正文至少 500 高。页脚在栏内换行。",
+          "content": "窄屏列表。菜单打开。四个栏目浮在正文上，两端对齐，不占高度。当前项加粗。日期用墨色，和标题相距 8。标题换行后从栏左缘继续。正文至少 500 高。页脚按字符换行。",
           "lineHeight": 1.8,
           "fontFamily": "JetBrains Mono",
           "fontSize": 15,
@@ -1057,7 +1027,7 @@
                       "content": "发表于 2020-10-01，预计阅读时间 3 分钟",
                       "lineHeight": 1.8,
                       "fontFamily": "JetBrains Mono",
-                      "fontSize": 13,
+                      "fontSize": 15,
                       "fontWeight": "normal",
                       "letterSpacing": 1
                     }
@@ -1071,7 +1041,7 @@
                   "layout": "vertical",
                   "gap": 10.5,
                   "padding": [
-                    22,
+                    10.5,
                     0,
                     0,
                     0
@@ -1253,7 +1223,7 @@
                   "layout": "vertical",
                   "gap": 10.5,
                   "padding": [
-                    30,
+                    10.5,
                     0,
                     0,
                     0
@@ -1337,6 +1307,34 @@
                               "fontSize": 15,
                               "fontWeight": "normal",
                               "letterSpacing": 1
+                            },
+                            {
+                              "type": "frame",
+                              "id": "HA0iF",
+                              "name": "行内代码",
+                              "fill": "$color.code",
+                              "cornerRadius": 4,
+                              "padding": [
+                                0,
+                                2
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "ZMu6I",
+                                  "name": "代码",
+                                  "fill": "$color.ink",
+                                  "textGrowth": "fixed-width",
+                                  "width": 31,
+                                  "content": "Ato",
+                                  "lineHeight": 1.8,
+                                  "fontFamily": "JetBrains Mono",
+                                  "fontSize": 15,
+                                  "fontWeight": "normal",
+                                  "letterSpacing": 1
+                                }
+                              ]
                             }
                           ]
                         },
@@ -1363,8 +1361,8 @@
                                   "id": "naStatePL1S0T",
                                   "fill": "$color.ink",
                                   "textGrowth": "fixed-width",
-                                  "width": 130,
-                                  "content": "AtomicInteger",
+                                  "width": 101,
+                                  "content": "micInteger",
                                   "lineHeight": 1.8,
                                   "fontFamily": "JetBrains Mono",
                                   "fontSize": 15,
@@ -1447,12 +1445,6 @@
                       "width": 358,
                       "layout": "vertical",
                       "gap": 10.5,
-                      "padding": [
-                        12,
-                        0,
-                        0,
-                        0
-                      ],
                       "children": [
                         {
                           "type": "text",
@@ -1736,7 +1728,7 @@
                                   "id": "naTidyA",
                                   "clip": true,
                                   "width": 120,
-                                  "height": 97,
+                                  "height": 70,
                                   "stroke": "$color.line",
                                   "strokeWidth": 1,
                                   "layout": "vertical",
@@ -1763,7 +1755,7 @@
                                   "id": "naTidyB",
                                   "clip": true,
                                   "width": 56,
-                                  "height": 97,
+                                  "height": 70,
                                   "stroke": "$color.line",
                                   "strokeWidth": 1,
                                   "layout": "vertical",
@@ -1790,7 +1782,7 @@
                                   "id": "naTidyC",
                                   "clip": true,
                                   "width": 182,
-                                  "height": 97,
+                                  "height": 70,
                                   "stroke": "$color.line",
                                   "strokeWidth": 1,
                                   "layout": "vertical",
@@ -1798,28 +1790,28 @@
                                   "justifyContent": "center",
                                   "children": [
                                     {
-                                      "type": "text",
-                                      "id": "naTidyCL0",
-                                      "fill": "$color.ink",
-                                      "textGrowth": "fixed-width",
-                                      "width": 166,
-                                      "content": "准备调用 ",
-                                      "lineHeight": 1.8,
-                                      "fontFamily": "JetBrains Mono",
-                                      "fontSize": 15,
-                                      "fontWeight": "normal",
-                                      "letterSpacing": 1
-                                    },
-                                    {
                                       "type": "frame",
-                                      "id": "naTidyCL1",
-                                      "width": 166,
+                                      "id": "KySRm",
+                                      "name": "格内行",
+                                      "width": "fill_container",
                                       "alignItems": "center",
                                       "children": [
                                         {
+                                          "type": "text",
+                                          "id": "vt9SP",
+                                          "name": "准备调用",
+                                          "fill": "$color.ink",
+                                          "content": "准备调用 ",
+                                          "lineHeight": 1.8,
+                                          "fontFamily": "JetBrains Mono",
+                                          "fontSize": 15,
+                                          "fontWeight": "normal",
+                                          "letterSpacing": 1
+                                        },
+                                        {
                                           "type": "frame",
-                                          "id": "naTidyCL1S0",
-                                          "name": "code",
+                                          "id": "xj3zW",
+                                          "name": "行内代码",
                                           "fill": "$color.code",
                                           "cornerRadius": 4,
                                           "padding": [
@@ -1830,11 +1822,12 @@
                                           "children": [
                                             {
                                               "type": "text",
-                                              "id": "naTidyCL1S0T",
+                                              "id": "Myn8k",
+                                              "name": "代码",
                                               "fill": "$color.ink",
                                               "textGrowth": "fixed-width",
-                                              "width": 120,
-                                              "content": "terminated()",
+                                              "width": 81,
+                                              "content": "terminat",
                                               "lineHeight": 1.8,
                                               "fontFamily": "JetBrains Mono",
                                               "fontSize": 15,
@@ -1846,17 +1839,53 @@
                                       ]
                                     },
                                     {
-                                      "type": "text",
-                                      "id": "naTidyCL2",
-                                      "fill": "$color.ink",
-                                      "textGrowth": "fixed-width",
-                                      "width": 166,
-                                      "content": " 钩子方法",
-                                      "lineHeight": 1.8,
-                                      "fontFamily": "JetBrains Mono",
-                                      "fontSize": 15,
-                                      "fontWeight": "normal",
-                                      "letterSpacing": 1
+                                      "type": "frame",
+                                      "id": "ThgLr",
+                                      "name": "格内行",
+                                      "width": "fill_container",
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "frame",
+                                          "id": "FTFz8",
+                                          "name": "行内代码",
+                                          "fill": "$color.code",
+                                          "cornerRadius": 4,
+                                          "padding": [
+                                            0,
+                                            2
+                                          ],
+                                          "alignItems": "center",
+                                          "children": [
+                                            {
+                                              "type": "text",
+                                              "id": "qRcXs",
+                                              "name": "代码",
+                                              "fill": "$color.ink",
+                                              "textGrowth": "fixed-width",
+                                              "width": 41,
+                                              "content": "ed()",
+                                              "lineHeight": 1.8,
+                                              "fontFamily": "JetBrains Mono",
+                                              "fontSize": 15,
+                                              "fontWeight": "normal",
+                                              "letterSpacing": 1
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "D9T1BC",
+                                          "name": "钩子方法",
+                                          "fill": "$color.ink",
+                                          "content": " 钩子方法",
+                                          "lineHeight": 1.8,
+                                          "fontFamily": "JetBrains Mono",
+                                          "fontSize": 15,
+                                          "fontWeight": "normal",
+                                          "letterSpacing": 1
+                                        }
+                                      ]
                                     }
                                   ]
                                 }
@@ -1876,7 +1905,7 @@
                   "layout": "vertical",
                   "gap": 10.5,
                   "padding": [
-                    30,
+                    10.5,
                     0,
                     0,
                     0
@@ -1913,7 +1942,6 @@
                       "id": "naSteps",
                       "width": 358,
                       "layout": "vertical",
-                      "gap": 8,
                       "padding": [
                         0,
                         0,
@@ -2012,8 +2040,8 @@
                                       "id": "naStep1L1S1T",
                                       "fill": "$color.ink",
                                       "textGrowth": "fixed-width",
-                                      "width": 190,
-                                      "content": "addWorker(command, ",
+                                      "width": 231,
+                                      "content": "addWorker(command, true",
                                       "lineHeight": 1.8,
                                       "fontFamily": "JetBrains Mono",
                                       "fontSize": 15,
@@ -2047,8 +2075,8 @@
                                       "id": "naStep1L2S0T",
                                       "fill": "$color.ink",
                                       "textGrowth": "fixed-width",
-                                      "width": 50,
-                                      "content": "true)",
+                                      "width": 11,
+                                      "content": ")",
                                       "lineHeight": 1.8,
                                       "fontFamily": "JetBrains Mono",
                                       "fontSize": 15,
@@ -2156,7 +2184,7 @@
               "fill": "$color.ink",
               "textGrowth": "fixed-width",
               "width": 358,
-              "content": "版权所有 © 2026 fantasticmao |\n技术支持 Hugo & MoMo |\n浙ICP备17009730号",
+              "content": "版权所有 © 2026 fantasticmao | 技术支\n持 Hugo & MoMo | 浙ICP备17009730号",
               "lineHeight": 1.8,
               "fontFamily": "JetBrains Mono",
               "fontSize": 15,
@@ -2169,11 +2197,11 @@
           "type": "text",
           "id": "naCaption",
           "x": 2436,
-          "y": 60,
+          "y": 40,
           "fill": "$color.ink",
           "textGrowth": "fixed-width",
           "width": 390,
-          "content": "窄屏正文。栏宽 358。菜单关闭，按钮和文字同色。标题、代码、表格和页脚都在栏内换行。",
+          "content": "窄屏正文。栏宽 358。菜单关闭，按钮和文字同色。标题、代码、表格和页脚按字符换行，代码块不软换行。",
           "lineHeight": 1.8,
           "fontFamily": "JetBrains Mono",
           "fontSize": 15,
@@ -2328,7 +2356,7 @@
                       "content": "发表于 2020-10-01，预计阅读时间 3 分钟",
                       "lineHeight": 1.8,
                       "fontFamily": "JetBrains Mono",
-                      "fontSize": 13,
+                      "fontSize": 15,
                       "fontWeight": "normal",
                       "letterSpacing": 1
                     }
@@ -2342,7 +2370,7 @@
                   "layout": "vertical",
                   "gap": 10.5,
                   "padding": [
-                    22,
+                    10.5,
                     0,
                     0,
                     0
@@ -2501,7 +2529,7 @@
                   "layout": "vertical",
                   "gap": 10.5,
                   "padding": [
-                    30,
+                    10.5,
                     0,
                     0,
                     0
@@ -2683,12 +2711,6 @@
                       "width": 800,
                       "layout": "vertical",
                       "gap": 10.5,
-                      "padding": [
-                        12,
-                        0,
-                        0,
-                        0
-                      ],
                       "children": [
                         {
                           "type": "text",
@@ -3110,7 +3132,7 @@
                   "layout": "vertical",
                   "gap": 10.5,
                   "padding": [
-                    30,
+                    10.5,
                     0,
                     0,
                     0
@@ -3145,7 +3167,6 @@
                       "id": "steps",
                       "width": 800,
                       "layout": "vertical",
-                      "gap": 8,
                       "padding": [
                         0,
                         0,
@@ -3340,69 +3361,18 @@
               ]
             },
             {
-              "type": "frame",
-              "id": "articleFooter",
+              "type": "text",
+              "id": "wAnNk",
               "name": "页脚",
+              "fill": "$color.ink",
+              "textGrowth": "fixed-width",
               "width": 800,
-              "gap": 8,
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "text",
-                  "id": "l5fOp4",
-                  "fill": "$color.ink",
-                  "content": "版权所有 © 2026 fantasticmao",
-                  "lineHeight": 1.8,
-                  "fontFamily": "JetBrains Mono",
-                  "fontSize": 15,
-                  "fontWeight": "normal",
-                  "letterSpacing": 1
-                },
-                {
-                  "type": "text",
-                  "id": "PJV4o",
-                  "fill": "$color.ink",
-                  "content": "|",
-                  "lineHeight": 1.8,
-                  "fontFamily": "JetBrains Mono",
-                  "fontSize": 15,
-                  "fontWeight": "normal",
-                  "letterSpacing": 1
-                },
-                {
-                  "type": "text",
-                  "id": "b9YQsA",
-                  "fill": "$color.ink",
-                  "content": "技术支持 Hugo & MoMo",
-                  "lineHeight": 1.8,
-                  "fontFamily": "JetBrains Mono",
-                  "fontSize": 15,
-                  "fontWeight": "normal",
-                  "letterSpacing": 1
-                },
-                {
-                  "type": "text",
-                  "id": "dIk9k",
-                  "fill": "$color.ink",
-                  "content": "|",
-                  "lineHeight": 1.8,
-                  "fontFamily": "JetBrains Mono",
-                  "fontSize": 15,
-                  "fontWeight": "normal",
-                  "letterSpacing": 1
-                },
-                {
-                  "type": "text",
-                  "id": "gOS3W",
-                  "fill": "$color.ink",
-                  "content": "浙ICP备17009730号",
-                  "lineHeight": 1.8,
-                  "fontFamily": "JetBrains Mono",
-                  "fontSize": 15,
-                  "fontWeight": "normal",
-                  "letterSpacing": 1
-                }
-              ]
+              "content": "版权所有 © 2026 fantasticmao | 技术支持 Hugo & MoMo | 浙ICP备17009730号",
+              "lineHeight": 1.8,
+              "fontFamily": "JetBrains Mono",
+              "fontSize": 15,
+              "fontWeight": "normal",
+              "letterSpacing": 1
             }
           ]
         },
@@ -3414,7 +3384,7 @@
           "fill": "$color.ink",
           "textGrowth": "fixed-width",
           "width": 800,
-          "content": "正文。标题上方多留一截，日期用次级色。",
+          "content": "正文。块与块间距 10.5。阅读提示 15 号、次级色。",
           "lineHeight": 1.8,
           "fontFamily": "JetBrains Mono",
           "fontSize": 15,
@@ -3451,7 +3421,7 @@
               "fill": "$color.ink",
               "textGrowth": "fixed-width",
               "width": 472,
-              "content": "栏宽 800，正文 15，字距 1px，字体 JetBrains Mono，书名号留下。代码块 12 号、底色 #ECECEC、边框 1px #CCCCCC、圆角 4。行内 code 同一块灰底、圆角 4，并且可以换行。表格整格线、单元格白底，格内文字换行。图片通栏，不加框。",
+              "content": "栏宽 800，正文 15，字距 1px，字体 JetBrains Mono，书名号留下。换行按字符填满，英文和行内 code 可以在中间断开。代码块 12 号、底色 #ECECEC、边框 1px #CCCCCC、圆角 4，不软换行。行内 code 同一块灰底、圆角 4。表格整格线、单元格白底，格内文字同样按字符换行。图片通栏，不加框。",
               "lineHeight": 1.8,
               "fontFamily": "JetBrains Mono",
               "fontSize": 15,
@@ -3658,7 +3628,7 @@
               "fill": "$color.ink",
               "textGrowth": "fixed-width",
               "width": 472,
-              "content": "二级标题上方 30，紧挨元信息的第一个二级标题上方 22，三级标题上方约 22。标题和段落、段落之间是 10.5。文章日期和列表日期用 #5C5C5C，日期和书名号相距 8。正文链接 #1565C0，默认没有下划线，悬停才出现；已访问 #0D47A1，不再用 #C01565。页眉、页脚链接保持墨色。站名链到首页，颜色仍是墨色。只有当前栏目加粗。宽屏导航间距 16。页脚一行：版权 | 技术支持 | 备案号，间距 8。窄屏用同一套内容，在栏内换行。所有页面的正文最小高度都是 500，内容超过 500 时按内容增高。窄屏列表和宽屏列表是同一套内容：栏目标题、栏目介绍，然后日期和书名号标题同一行，标题在栏内换行。窄屏菜单关闭时只留站名和菜单按钮，按钮和文字同色。打开后四个栏目浮在正文上，两端对齐、水平分布，不占高度；按钮这时才变成 #CCCCCC。当前项加粗。没有边框，也没有下拉面板。有序列表步骤间距 8，左缩进 32。找不到页面只留这一句。",
+              "content": "标题和段落、代码、表格之间都是 10.5。阅读提示 15 号、#5C5C5C。列表日期用墨色 #2F2F2F，和书名号相距 8；书名号换行后从栏左缘继续。正文链接 #1565C0，默认没有下划线，悬停才出现；已访问 #0D47A1，不再用 #C01565。页眉、页脚链接保持墨色。站名链到首页，颜色仍是墨色。只有当前栏目加粗。宽屏导航间距 16。页脚是一段文字：版权所有 © 年份 作者 | 技术支持 Hugo & MoMo | 备案号。窄屏按字符换行。所有页面的正文最小高度都是 500，内容超过 500 时按内容增高。窄屏列表和宽屏列表是同一套内容：栏目标题、栏目介绍，然后日期和书名号标题同一行。窄屏菜单关闭时只留站名和菜单按钮，按钮和文字同色。打开后四个栏目浮在正文上，两端对齐、水平分布，不占高度；按钮这时才变成 #CCCCCC。当前项加粗。没有边框，也没有下拉面板。有序列表步骤之间不再额外拉开，左缩进 32。换行按字符填满，英文和行内 code 可以在中间断开，代码块不软换行。找不到页面只留这一句。",
               "lineHeight": 1.8,
               "fontFamily": "JetBrains Mono",
               "fontSize": 15,

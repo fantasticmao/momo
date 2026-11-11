@@ -12,7 +12,7 @@
         {{ .Content }}
 
         {{- range .Pages }}
-        <p><span>{{ .Date.Format "2006-01-02" }}</span><a href="{{ .RelPermalink }}">《{{ .Title }}》</a></p>
+        <p class="post-list"><span>{{ .Date.Format "2006-01-02" }}</span><a href="{{ .RelPermalink }}">《{{ .Title }}》</a></p>
         {{- end }}
     </article>
 </main>

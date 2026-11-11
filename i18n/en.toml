@@ -4,9 +4,9 @@ other = "Copyright"
 [page_not_found]
 other = "Page Not Found"
 
-[powered_by]
-other = "Powered by"
-
-[reading_tips]
+[post_tips]
 one = 'Posted on {{ .Date.Format "2006-01-02" }}, 1 minute read'
 other = 'Posted on {{ .Date.Format "2006-01-02" }}, {{ .ReadingTime }} minutes read'
+
+[powered_by]
+other = "Powered by"

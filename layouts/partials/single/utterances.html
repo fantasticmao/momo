@@ -1,6 +1,6 @@
 {{- if isset .Site.Params "utterances" -}}
 {{- if and (isset .Site.Params.utterances "repo") (not (eq .Site.Params.utterances.repo "")) -}}
-<div id="comments">
+<div class="comments">
     <script>
 
         let getTheme = window.localStorage && window.localStorage.getItem("colorscheme");
@@ -22,8 +22,8 @@
         s.setAttribute('theme', theme);
         s.setAttribute('crossorigin', 'anonymous');
         s.setAttribute('async', '');
-        document.querySelector('#comments').innerHTML = '';
-        document.querySelector('#comments').appendChild(s);
+        document.querySelector('div.comments').innerHTML = '';
+        document.querySelector('div.comments').appendChild(s);
 
     </script>
 </div>
