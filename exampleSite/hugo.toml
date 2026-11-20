@@ -1,6 +1,7 @@
 title = "MoMo"
 theme = 'momo'
 enableEmoji = true
+disableKinds = ["taxonomy", "term"]
 
 [markup.goldmark]
 [markup.goldmark.renderer]
